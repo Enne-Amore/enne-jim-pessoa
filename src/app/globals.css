@@ -24,8 +24,11 @@
   --color-light-pink-100: #FFD1E9;
   --color-light-pink-200: #FFC2E2;
   --font-poppins: var(--font-poppins);
+  --text-44px: 44px;
   --text-32px: 32px;
   --text-28px: 28px;
+  --spacing-100px: 100px;
+  --spacing-70px: 70px;
 }
 
 /* @media (prefers-color-scheme: dark) {

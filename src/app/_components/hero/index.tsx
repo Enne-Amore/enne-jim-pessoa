@@ -42,6 +42,8 @@ export default function Hero() {
           width={280}
           height={206}
           className={`xl:w-[517px] xl:h-[379px]`}
+          priority
+          loading="eager"
         />
       </figure>
     </section>

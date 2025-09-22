@@ -13,9 +13,9 @@ export default function MenuDialogMobile() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className={`xl:hidden h-12`}>
+    <nav className={`xl:hidden h-11`}>
       <button type="button" onClick={() => setIsOpen(true)}>
-        <FaBars className={`w-12 h-12 text-shadow-2xs`} />
+        <FaBars className={`w-11 h-11 text-shadow-2xs`} />
       </button>
 
       <Dialog
@@ -38,7 +38,7 @@ export default function MenuDialogMobile() {
             </DialogTitle>
 
             <hr
-              className={`w-full rounded border-3 border-white my-3.5 shadow`}
+              className={`w-full rounded border-3 border-white mt-2 mb-3.5 shadow`}
             />
 
             <NavItems />

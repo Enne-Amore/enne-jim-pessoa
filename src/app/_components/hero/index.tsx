@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section
-      className={`flex flex-col-reverse items-center gap-12 xl:flex-row xl:gap-100px`}
+      className={`w-[330px] flex flex-col-reverse items-center gap-12 xl:w-[1078px] xl:flex-row xl:justify-between`}
     >
       <div className={`flex flex-col items-center gap-8`}>
         <h2

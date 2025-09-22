@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export interface ProjectsInterface {
-  href: string;
+  url: string;
   ariaLabel: string;
   imgMobile: string;
   imgDesktop: string;
@@ -14,7 +14,7 @@ export interface ProjectsInterface {
 export default function Projects() {
   const projects: ProjectsInterface[] = [
     {
-      href: "/coletive-nao-binarie-paraiba",
+      url: "/coletive-nao-binarie-paraiba",
       ariaLabel: "Ir à página desse projeto específico",
       imgMobile: "cnbpb-mobile.png",
       imgDesktop: "cnbpb-desktop.png",
@@ -23,7 +23,7 @@ export default function Projects() {
       caption: "Landing Page",
     },
     {
-      href: "/janai-amitaf-producoes",
+      url: "/janai-amitaf-producoes",
       ariaLabel: "Ir à página desse projeto específico",
       imgMobile: "janai-amitaf-mobile.png",
       imgDesktop: "janai-amitaf-desktop.png",
@@ -35,10 +35,11 @@ export default function Projects() {
 
   return (
     <section
+      id="projetos"
       className={`w-[320px] flex flex-col items-center gap-12 xl:w-[1078px] xl:px-0`}
     >
       <h2
-        className={`w-full font-title text-28px text-shadow-2xs shadow bg-gradient-to-br from-dark-purple to-light-purple px-9 pt-3 pb-3.5 rounded-full`}
+        className={`w-full font-title text-28px text-shadow-2xs shadow bg-gradient-to-br from-dark-purple to-light-purple px-9 pt-3.5 pb-3 rounded-full xl:pb-4`}
       >
         Projetos
       </h2>
@@ -46,7 +47,7 @@ export default function Projects() {
       <ul className={`flex flex-col gap-10 xl:flex-row xl:flex-wrap`}>
         {projects.map((project, index) => (
           <li key={index}>
-            <Link href={project.href} aria-label={project.ariaLabel} rel="next">
+            <Link href={project.url} aria-label={project.ariaLabel} rel="next">
               <figure
                 className={`relative w-[280px] border-2 border-light-pink-100 rounded-4xl shadow overflow-hidden xl:w-[449px]`}
               >

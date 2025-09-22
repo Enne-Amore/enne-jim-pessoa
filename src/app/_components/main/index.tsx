@@ -1,3 +1,4 @@
+import About from "../about";
 import Hero from "../hero";
 import Projects from "../projects";
 
@@ -9,6 +10,8 @@ export default function Main() {
       <Hero />
 
       <Projects />
+
+      <About />
     </main>
   );
 }

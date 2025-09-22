@@ -6,6 +6,18 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "font-open-dyslexic-regular";
+  src: url(../fonts/open_dyslexic/OpenDyslexicAlta-Regular.otf) format(opentype);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "font-open-dyslexic-bold";
+  src: url(../fonts/open_dyslexic/OpenDyslexicAlta-Bold.otf) format(opentype);
+  font-display: swap;
+}
+
 :root {
   --background: #FFFCFE;
   --foreground: #282426;
@@ -29,6 +41,8 @@
   --text-28px: 28px;
   --spacing-100px: 100px;
   --spacing-70px: 70px;
+  --spacing-16: 60px;
+  --spacing-12: 50px;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -43,6 +57,24 @@ body {
   font-family: var(--font-poppins);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .font-title {
   font-family: "font-lexia-readable", sans-serif;
+}
+
+.font-text {
+  font-family: "font-open-dyslexic-regular", sans-serif;
+}
+
+.font-text strong {
+  font-family: "font-open-dyslexic-bold", sans-serif;
+  background: linear-gradient(96deg, var(--color-light-pink-200) 0%, var(--color-light-pink-100) 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 4px 4px #2824260D,
+    4px 4px 4px #FFD1E908;
 }

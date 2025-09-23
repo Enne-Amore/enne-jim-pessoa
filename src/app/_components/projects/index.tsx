@@ -49,7 +49,7 @@ export default function Projects() {
           <li key={index}>
             <Link href={project.url} aria-label={project.ariaLabel} rel="next">
               <figure
-                className={`relative w-[280px] border-2 border-light-pink-100 rounded-4xl shadow overflow-hidden xl:w-[449px]`}
+                className={`relative w-[280px] border-2 border-light-pink-100 rounded-4xl shadow overflow-hidden transition duration-300 hover:border-light-pink-200 xl:w-[449px]`}
               >
                 <picture>
                   <source

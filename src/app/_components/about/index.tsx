@@ -76,7 +76,7 @@ export default function About() {
         <figcaption className={`flex flex-col items-center gap-2.5`}>
           <span className={`font-title text-white-200 text-2xl text-shadow-2xs xl:text-28px`}>Enne Jim Pessoa</span>
 
-          <span className={`font-medium text-gray text-xs text-shadow-2xs bg-gradient-to-br from-light-pink-200 to-light-pink-100 shadow px-4 py-1.5 rounded-4xl`}>Ê/Elu/-e</span>
+          <span className={`font-medium text-gray text-xs text-shadow-2xs bg-gradient-to-br from-light-pink-200 to-light-pink-100 shadow px-4 py-1.5 rounded-4xl xl:text-base`}>Ê/Elu/-e</span>
         </figcaption>
       </figure>
     </section>

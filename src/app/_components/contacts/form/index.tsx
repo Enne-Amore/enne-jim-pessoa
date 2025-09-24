@@ -6,6 +6,7 @@ import {
 } from "@/app/_schemas/contact-schema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
 import Input from "../input";
 
 export default function Form() {
@@ -17,8 +18,19 @@ export default function Form() {
     resolver: zodResolver(contactFormSchema),
   });
 
+  emailjs.init("npG2gUW78edQeeIXk");
+
   function onSubmit(data: ContactFormSchema) {
     console.table(data);
+
+    emailjs.send("service_4f9kp7j", "template_jrixhzp", data).then(
+      () => {
+        console.log("SUCCESS!");
+      },
+      (error) => {
+        console.log("FAILED...", error.text);
+      }
+    );
   }
 
   return (
@@ -31,6 +43,7 @@ export default function Form() {
 
       <form
         onSubmit={handleSubmit(onSubmit)}
+        method="POST"
         className={`flex flex-col items-center gap-9 xl:gap-10`}
       >
         <div

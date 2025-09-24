@@ -31,7 +31,7 @@ export default function Form() {
 
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className={`flex flex-col items-center gap-10`}
+        className={`flex flex-col items-center gap-9 xl:gap-10`}
       >
         <div
           className={`flex flex-col items-center gap-6 xl:gap-8 xl:flex-wrap xl:max-h-[308px] xl:gap-x-12`}

@@ -44,8 +44,9 @@
   --spacing-8: 30px;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
-  width: 15px;
+  @apply w-[15px];
 }
 ::-webkit-scrollbar-track {
   @apply bg-white-100;
@@ -65,9 +66,10 @@
 } */
 
 body {
-  @apply font-poppins text-white-100;
+  @apply bg-light-pink-100 font-poppins text-white-100 animate-[fade_0.5s_ease-in-out];
 }
 
+/* Text fonts */
 .font-title {
   font-family: "font-lexia-readable", sans-serif;
 }
@@ -76,10 +78,25 @@ body {
 }
 .font-text strong {
   font-family: "font-open-dyslexic-bold", sans-serif;
-  background: linear-gradient(96deg, var(--color-light-pink-200) 0%, var(--color-light-pink-100) 90%);
+  background: linear-gradient(
+    96deg,
+    var(--color-light-pink-200) 0%,
+    var(--color-light-pink-100) 90%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 4px 4px 4px #2824260D,
-    4px 4px 4px #FFD1E908;
+  text-shadow: 4px 4px 4px #2824260D, 4px 4px 4px #FFD1E908;
+}
+
+/* Animation */
+@keyframes fade {
+  from {
+    transform: translateX(-5px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }

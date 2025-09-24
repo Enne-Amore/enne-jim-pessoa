@@ -14,14 +14,14 @@ export default function SocialNetworks() {
       icon: <FaLinkedinIn className={`w-6 h-auto`} />,
     },
     {
-      url: "https://github.com/Enne-Amore",
-      ariaLabel: "Ir ao meu perfil no GitHub",
-      icon: <FaGithub className={`w-6 h-auto`} />,
-    },
-    {
       url: "https://wa.me/+5583981448264",
       ariaLabel: "Falar comigo no WhatsApp",
       icon: <FaWhatsapp className={`w-6 h-auto`} />,
+    },
+    {
+      url: "https://github.com/Enne-Amore",
+      ariaLabel: "Ir ao meu perfil no GitHub",
+      icon: <FaGithub className={`w-6 h-auto`} />,
     },
   ];
 

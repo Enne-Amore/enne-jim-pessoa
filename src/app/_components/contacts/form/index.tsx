@@ -68,7 +68,7 @@ export default function Form() {
 
         <button
           type="submit"
-          className={`font-bold text-xl text-shadow-2xs bg-light-purple px-12 py-4 shadow rounded-4xl cursor-pointer transition duration-300 hover:bg-dark-purple active:bg-white-300 active:text-dark-purple xl:text-2xl`}
+          className={`font-bold text-xl text-shadow-2xs bg-light-purple px-12 py-4 shadow rounded-4xl cursor-pointer transition duration-300 hover:bg-dark-purple focus-within:bg-dark-purple active:bg-white-300 active:text-dark-purple xl:text-2xl`}
         >
           Enviar
         </button>

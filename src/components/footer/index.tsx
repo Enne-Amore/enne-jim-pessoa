@@ -2,7 +2,9 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className={`bg-gradient-to-b from-light-purple via-dark-purple to-gray flex flex-col items-center gap-7 pt-6 pb-5 xl:flex-row xl:py-8 xl:pl-10`}>
+    <footer
+      className={`bg-gradient-to-b from-light-purple via-dark-purple to-gray flex flex-col items-center gap-7 pt-6 pb-5 xl:flex-row xl:py-8 xl:pl-10`}
+    >
       <figure className={`flex items-center gap-2.5`}>
         <Image
           src={"/favicon/logo.png"}
@@ -13,8 +15,11 @@ export default function Footer() {
         />
       </figure>
 
-      <span className={`w-[235px] font-text text-xs text-center text-shadow-2xs leading-5 xl:w-max xl:text-base xl:absolute xl:left-1/2 xl:-translate-x-1/2`}>
-        Copyright © 2025 <strong>Enne Jim Pessoa</strong>. Todos os direitos reservados.
+      <span
+        className={`w-[235px] font-text text-xs text-center text-shadow-2xs leading-5 xl:w-max xl:text-base xl:absolute xl:left-1/2 xl:-translate-x-1/2`}
+      >
+        Copyright © 2025 <strong>Enne Jim Pessoa</strong>. Todos os direitos
+        reservados.
       </span>
     </footer>
   );

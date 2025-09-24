@@ -49,7 +49,7 @@ export default function About() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={resume.ariaLabel}
-                className={`flex gap-1.5 items-center font-bold text-base text-shadow-2xs bg-dark-pink-100/30 border-1 border-dark-pink-100 px-6 py-2.5 rounded-4xl shadow transition duration-300 hover:bg-dark-pink-100 active:bg-dark-pink-200`}
+                className={`flex gap-1.5 items-center font-bold text-base text-shadow-2xs bg-dark-pink-100/30 border-1 border-dark-pink-100 px-6 py-2.5 rounded-4xl shadow transition duration-300 hover:bg-dark-pink-100 focus-within:bg-dark-pink-100 active:bg-dark-pink-200`}
               >
                 <span>
                   <FaFileLines className={`w-5 h-auto`} />

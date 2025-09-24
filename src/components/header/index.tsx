@@ -18,7 +18,9 @@ export default function Header() {
           loading="eager"
         />
 
-        <h1 className={`font-title text-white-200 text-32px text-shadow-2xs w-36 leading-8 xl:w-full xl:text-4xl`}>
+        <h1
+          className={`font-title text-white-200 text-32px text-shadow-2xs w-36 leading-8 xl:w-full xl:text-4xl`}
+        >
           Enne Jim Pessoa
         </h1>
       </figure>

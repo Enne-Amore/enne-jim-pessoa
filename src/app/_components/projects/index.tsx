@@ -47,7 +47,12 @@ export default function Projects() {
       <ul className={`flex flex-col gap-10 xl:flex-row xl:flex-wrap`}>
         {projects.map((project, index) => (
           <li key={index}>
-            <Link href={project.url} aria-label={project.ariaLabel} rel="next">
+            <Link
+              href={project.url}
+              aria-label={project.ariaLabel}
+              rel="next"
+              className={`rounded-4xl`}
+            >
               <figure
                 className={`relative w-[280px] border-2 border-light-pink-100 rounded-4xl shadow overflow-hidden transition duration-300 hover:border-light-pink-200 xl:w-[449px]`}
               >

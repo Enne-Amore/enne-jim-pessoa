@@ -7,6 +7,8 @@ import {
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
+import Toastify from "toastify-js";
+import "toastify-js/src/toastify.css";
 import Input from "../input";
 
 export default function Form() {
@@ -18,14 +20,31 @@ export default function Form() {
     resolver: zodResolver(contactFormSchema),
   });
 
-  emailjs.init("npG2gUW78edQeeIXk");
+  const userID = "npG2gUW78edQeeIXk";
+  const serviceID = "service_4f9kp7j";
+  const templateID = "template_jrixhzp";
+
+  emailjs.init(userID);
 
   function onSubmit(data: ContactFormSchema) {
     console.table(data);
 
-    emailjs.send("service_4f9kp7j", "template_jrixhzp", data).then(
+    emailjs.send(serviceID, templateID, data).then(
       () => {
         console.log("SUCCESS!");
+
+        Toastify({
+          text: "Sucesso ao enviar mensagem!",
+          duration: 3000,
+          gravity: "top",
+          position: "right",
+          offset: { x: 20, y: 30 },
+          className: "notify-toastify",
+          style: {
+            background: "#00B09B",
+            borderRadius: "30px",
+          },
+        }).showToast();
       },
       (error) => {
         console.log("FAILED...", error.text);

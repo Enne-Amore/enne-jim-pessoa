@@ -89,6 +89,10 @@ body {
   text-shadow: 4px 4px 4px #2824260D, 4px 4px 4px #FFD1E908;
 }
 
+.notify-toastify {
+  @apply min-w-[300px] bg-[#00B09B] text-base rounded-4xl xl:w-max xl:text-xl;
+}
+
 /* Animation */
 @keyframes fade {
   from {

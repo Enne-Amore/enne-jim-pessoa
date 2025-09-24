@@ -5,13 +5,11 @@
   src: url(../fonts/lexia_readable/LexieReadable-Bold.ttf) format(truetype);
   font-display: swap;
 }
-
 @font-face {
   font-family: "font-open-dyslexic-regular";
   src: url(../fonts/open_dyslexic/OpenDyslexicAlta-Regular.otf) format(opentype);
   font-display: swap;
 }
-
 @font-face {
   font-family: "font-open-dyslexic-bold";
   src: url(../fonts/open_dyslexic/OpenDyslexicAlta-Bold.otf) format(opentype);
@@ -46,6 +44,19 @@
   --spacing-8: 30px;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-white-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-light-pink-100 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-light-pink-200;
+}
+
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #282426;
@@ -54,22 +65,15 @@
 } */
 
 body {
-  color: var(--color-white-100);
-  font-family: var(--font-poppins);
-}
-
-html {
-  scroll-behavior: smooth;
+  @apply font-poppins text-white-100;
 }
 
 .font-title {
   font-family: "font-lexia-readable", sans-serif;
 }
-
 .font-text {
   font-family: "font-open-dyslexic-regular", sans-serif;
 }
-
 .font-text strong {
   font-family: "font-open-dyslexic-bold", sans-serif;
   background: linear-gradient(96deg, var(--color-light-pink-200) 0%, var(--color-light-pink-100) 90%);

@@ -10,6 +10,7 @@ import { FaBars } from "react-icons/fa6";
 import NavItems from "@/components/header/navItems";
 
 export default function MenuDialogMobile() {
+  // State to control the dialog visibility
   const [isOpen, setIsOpen] = useState(false);
 
   return (

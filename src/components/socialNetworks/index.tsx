@@ -7,6 +7,7 @@ interface SocialNetworkInterface {
 }
 
 export default function SocialNetworks() {
+  // List of social networks data
   const socialNetworks: SocialNetworkInterface[] = [
     {
       url: "https://www.linkedin.com/in/enne-jim-pessoa",

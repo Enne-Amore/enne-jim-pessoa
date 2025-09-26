@@ -12,6 +12,7 @@ export interface ProjectsInterface {
 }
 
 export default function Projects() {
+  // List of projects data
   const projects: ProjectsInterface[] = [
     {
       url: "/coletive-nao-binarie-paraiba",

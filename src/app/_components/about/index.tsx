@@ -8,6 +8,7 @@ export interface ResumesInterface {
 }
 
 export default function About() {
+  // List of resumes data
   const resumes: ResumesInterface[] = [
     {
       url: "https://docs.google.com/document/d/1IRv4gIQw279SAWeABoCGJwKWRT65rZhoKe_wsl-4e-g/edit?usp=sharing",

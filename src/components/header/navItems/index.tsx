@@ -6,6 +6,7 @@ export interface NavItemsInterface {
 }
 
 export default function NavItems() {
+  // List of navigation items data
   const links: NavItemsInterface[] = [
     {
       url: "#projetos",

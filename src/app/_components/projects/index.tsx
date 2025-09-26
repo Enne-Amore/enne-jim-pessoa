@@ -17,8 +17,8 @@ export default function Projects() {
     {
       url: "/coletive-nao-binarie-paraiba",
       ariaLabel: "Ir à página desse projeto específico",
-      imgMobile: "cnbpb-mobile.png",
-      imgDesktop: "cnbpb-desktop.png",
+      imgMobile: "cnbpb-mobile.avif",
+      imgDesktop: "cnbpb-desktop.avif",
       alt: "Logo do Coletive Não-Binárie da Paraíba",
       positions: ["UI/UX Design", "Front-end"],
       caption: "Landing Page",
@@ -26,8 +26,8 @@ export default function Projects() {
     {
       url: "/janai-amitaf-producoes",
       ariaLabel: "Ir à página desse projeto específico",
-      imgMobile: "janai-amitaf-mobile.png",
-      imgDesktop: "janai-amitaf-desktop.png",
+      imgMobile: "janai-amitaf-mobile.avif",
+      imgDesktop: "janai-amitaf-desktop.avif",
       alt: "Logo de Janai Amitáf Produções",
       positions: ["UI/UX Design", "Front-end"],
       caption: "Portfólio Web",
@@ -63,7 +63,7 @@ export default function Projects() {
                     srcSet={`assets/${project.imgDesktop}`}
                     width={449}
                     height={281}
-                    type="image/png"
+                    type="image/avif"
                   />
 
                   <Image

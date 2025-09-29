@@ -16,11 +16,6 @@
   font-display: swap;
 }
 
-:root {
-  --background: #FFFCFE;
-  --foreground: #282426;
-}
-
 @theme inline {
   --color-white-100: #FFFCFE;
   --color-white-200: #FFFAFD;
@@ -49,21 +44,14 @@
   @apply w-[15px];
 }
 ::-webkit-scrollbar-track {
-  @apply bg-white-100;
+  @apply bg-white-100 dark:bg-gray;
 }
 ::-webkit-scrollbar-thumb {
-  @apply bg-light-pink-100 rounded-full;
+  @apply bg-dark-pink-100 rounded-full dark:bg-light-pink-100;
 }
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-light-pink-200;
+  @apply bg-dark-pink-200 dark:bg-light-pink-200;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #282426;
-    --foreground: #FFFCFE;
-  }
-} */
 
 body {
   @apply bg-light-pink-100 font-poppins text-white-100 animate-[fade_0.5s_ease-in-out];

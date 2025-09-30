@@ -81,7 +81,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br" cz-shortcut-listen="true" className={`scroll-smooth`} suppressHydrationWarning>
+    <html lang="pt-br" className={`scroll-smooth`} suppressHydrationWarning>
       <body className={`${poppins.variable} antialiased`}>
         <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem>
           {children}

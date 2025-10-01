@@ -1,33 +1,42 @@
-import ProjectHeader, {
-  ProjectHeaderInterface,
-} from "@/components/projectHeader";
+import { ProjectsType } from "@/types/projectsType";
+import { projects } from "@/data/projects";
+import ProjectHeader from "@/components/projectHeader";
+import ProjectAccesses from "@/components/projectAccesses";
 
 export default function ColetiveNaoBinarieParaiba() {
-  const data: ProjectHeaderInterface = {
-    headerStyle: "bg-[#030007]",
-    positions: ["UI/UX Design", "Front-end"],
-    positionStyle: "bg-[#6A4EA6]/80",
-    img: "/assets/cnbpb-project-header.png",
-    alt: "Coletive Não-Binárie da Paraíba",
-    imgStyle: "xl:w-[522px]",
-    caption: "Construção de uma landing page intuitiva para divulgar a organização",
-    captionStyle: "font-title-cnbpb xl:text-32px xl:w-[780px]",
-    downStyle: "text-[#F2E530] hover:text-[#F2C029]",
-  };
+  const data: ProjectsType = projects.find((project) => project.id === "1")!;
 
   return (
     <>
       <ProjectHeader
-        headerStyle={data.headerStyle}
-        positions={data.positions}
-        positionStyle={data.positionStyle}
-        img={data.img}
-        alt={data.alt}
-        imgStyle={data.imgStyle}
-        caption={data.caption}
-        captionStyle={data.captionStyle}
-        downStyle={data.downStyle}
+        headerStyle={data.header.headerStyle}
+        positions={data.header.positions}
+        positionStyle={data.header.positionStyle}
+        img={data.header.img}
+        alt={data.header.alt}
+        imgStyle={data.header.imgStyle}
+        caption={data.header.caption}
+        captionStyle={data.header.captionStyle}
+        downStyle={data.header.downStyle}
       />
+
+      <main
+        id="main"
+        className={`bg-[#FFFFFD] flex flex-col items-center gap-20 py-20 xl:gap-28`}
+      >
+        <ProjectAccesses
+          img={data.accesses.img}
+          alt={data.accesses.alt}
+          urlSite={data.accesses.urlSite}
+          ariaLabelSite={data.accesses.ariaLabelSite}
+          urlFigma={data.accesses.urlFigma}
+          ariaLabelFigma={data.accesses.ariaLabelFigma}
+          urlGitHub={data.accesses.urlGitHub}
+          ariaLabelGitHub={data.accesses.ariaLabelGitHub}
+          urlMainStyle={data.accesses.urlMainStyle}
+          urlSecondaryStyle={data.accesses.urlSecondaryStyle}
+        />
+      </main>
     </>
   );
 }

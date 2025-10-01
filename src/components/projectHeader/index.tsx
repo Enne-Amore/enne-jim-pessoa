@@ -1,20 +1,9 @@
-import Image from "next/image";
+import { ProjectsType } from "@/types/projectsType";
 import Link from "next/link";
 import { FaArrowLeft, FaChevronDown } from "react-icons/fa6";
+import Image from "next/image";
 
-export interface ProjectHeaderInterface {
-  headerStyle: string;
-  positions: string[];
-  positionStyle: string;
-  img: string;
-  alt: string;
-  imgStyle: string;
-  caption: string;
-  captionStyle: string;
-  downStyle: string;
-}
-
-export default function ProjectHeader(props: ProjectHeaderInterface) {
+export default function ProjectHeader(props: ProjectsType["header"]) {
   return (
     <header
       className={`max-w-screen min-h-screen ${props.headerStyle} flex flex-col justify-between items-center px-9 py-8 shadow`}

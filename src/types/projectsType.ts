@@ -1,5 +1,14 @@
 export interface ProjectsType {
   id: string;
+  card: {
+    url: string;
+    ariaLabel: string;
+    imgMobile: string;
+    imgDesktop: string;
+    alt: string;
+    positions: string[];
+    caption: string;
+  };
   header: {
     headerStyle: string;
     positions: string[];

@@ -1,6 +1,15 @@
 export const projects = [
   {
     id: "1",
+    card: {
+      url: "/coletive-nao-binarie-paraiba",
+      ariaLabel: "Ir à página desse projeto específico",
+      imgMobile: "cnbpb-mobile.avif",
+      imgDesktop: "cnbpb-desktop.avif",
+      alt: "Logo do Coletive Não-Binárie da Paraíba",
+      positions: ["UI/UX Design", "Front-end"],
+      caption: "Landing Page",
+    },
     header: {
       headerStyle: "bg-[#030007]",
       positions: ["UI/UX Design", "Front-end"],
@@ -31,6 +40,15 @@ export const projects = [
   },
   {
     id: "2",
+    card: {
+      url: "/janai-amitaf-producoes",
+      ariaLabel: "Ir à página desse projeto específico",
+      imgMobile: "janai-amitaf-mobile.avif",
+      imgDesktop: "janai-amitaf-desktop.avif",
+      alt: "Logo de Janai Amitáf Produções",
+      positions: ["UI/UX Design", "Front-end"],
+      caption: "Portfólio Web",
+    },
     header: {
       headerStyle: "bg-gradient-to-br from-[#8C00FF] to-[#6C0CF2]",
       positions: ["UI/UX Design", "Front-end"],

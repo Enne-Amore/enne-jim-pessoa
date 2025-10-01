@@ -1,38 +1,10 @@
-import Image from "next/image";
+import { ProjectsType } from "@/types/projectsType";
+import { projects } from "@/data/projects";
 import Link from "next/link";
-
-export interface ProjectsInterface {
-  url: string;
-  ariaLabel: string;
-  imgMobile: string;
-  imgDesktop: string;
-  alt: string;
-  positions: string[];
-  caption: string;
-}
+import Image from "next/image";
 
 export default function Projects() {
-  // List of projects data
-  const projects: ProjectsInterface[] = [
-    {
-      url: "/coletive-nao-binarie-paraiba",
-      ariaLabel: "Ir à página desse projeto específico",
-      imgMobile: "cnbpb-mobile.avif",
-      imgDesktop: "cnbpb-desktop.avif",
-      alt: "Logo do Coletive Não-Binárie da Paraíba",
-      positions: ["UI/UX Design", "Front-end"],
-      caption: "Landing Page",
-    },
-    {
-      url: "/janai-amitaf-producoes",
-      ariaLabel: "Ir à página desse projeto específico",
-      imgMobile: "janai-amitaf-mobile.avif",
-      imgDesktop: "janai-amitaf-desktop.avif",
-      alt: "Logo de Janai Amitáf Produções",
-      positions: ["UI/UX Design", "Front-end"],
-      caption: "Portfólio Web",
-    },
-  ];
+  const cards: ProjectsType["card"][] = projects.map((project) => project.card);
 
   return (
     <section
@@ -46,11 +18,11 @@ export default function Projects() {
       </h2>
 
       <ul className={`flex flex-col gap-10 xl:flex-row xl:flex-wrap`}>
-        {projects.map((project, index) => (
+        {cards.map((card, index) => (
           <li key={index}>
             <Link
-              href={project.url}
-              aria-label={project.ariaLabel}
+              href={card.url}
+              aria-label={card.ariaLabel}
               rel="next"
               className={`rounded-4xl`}
             >
@@ -60,15 +32,15 @@ export default function Projects() {
                 <picture>
                   <source
                     media="(min-width: 1280px)"
-                    srcSet={`assets/${project.imgDesktop}`}
+                    srcSet={`assets/${card.imgDesktop}`}
                     width={449}
                     height={281}
                     type="image/avif"
                   />
 
                   <Image
-                    src={`/assets/${project.imgMobile}`}
-                    alt={project.alt}
+                    src={`/assets/${card.imgMobile}`}
+                    alt={card.alt}
                     width={280}
                     height={400}
                     className={`rounded-4xl transition duration-300 hover:scale-110`}
@@ -76,19 +48,19 @@ export default function Projects() {
                 </picture>
 
                 <figcaption
-                  className={`absolute bottom-5 w-full flex justify-center`}
+                  className={`absolute bottom-4 w-full flex justify-center`}
                 >
                   <span
                     className={`w-max text-gray text-xs text-shadow-2xs select-none bg-white/90 px-2.5 py-1 rounded-4xl`}
                   >
-                    {project.caption}
+                    {card.caption}
                   </span>
                 </figcaption>
 
                 <ul
-                  className={`absolute top-5 w-full flex justify-center gap-3`}
+                  className={`absolute top-4 w-full flex justify-center gap-3`}
                 >
-                  {project.positions.map((position, index) => (
+                  {card.positions.map((position, index) => (
                     <li
                       key={index}
                       className={`w-max text-gray text-xs text-shadow-2xs select-none bg-white/90 px-2.5 py-1 rounded-4xl`}

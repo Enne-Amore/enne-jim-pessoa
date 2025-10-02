@@ -12,7 +12,7 @@ export default function ProjectHeader(props: ProjectsType["header"]) {
         <Link
           href="/"
           aria-label="Voltar à página inicial"
-          className={`text-shadow-2xs xl:p-3 xl:rounded-full xl:transition xl:hover:bg-white/15 xl:hover:shadow xl:active:bg-white/30`}
+          className={`text-shadow-2xs xl:p-3 xl:rounded-full xl:transition xl:hover:bg-white/15 xl:hover:shadow xl:focus-visible:bg-white/15 xl:focus-visible:shadow xl:active:bg-white/30`}
           rel="previous"
         >
           <FaArrowLeft className={`w-[25px] h-auto xl:w-[30px]`} />

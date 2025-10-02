@@ -22,7 +22,7 @@ export default function ColetiveNaoBinarieParaiba() {
 
       <main
         id="main"
-        className={`bg-[#FFFFFD] flex flex-col items-center gap-20 py-20 xl:gap-28`}
+        className={`bg-[#FFFFFD] flex flex-col items-center gap-20 py-20 xl:gap-28 xl:py-28`}
       >
         <ProjectAccesses
           img={data.accesses.img}

@@ -35,7 +35,7 @@ export default function SocialNetworks() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={network.ariaLabel}
-            className={`flex content-center bg-white-200 text-light-purple text-shadow-2xs border border-light-purple p-3 rounded-full shadow transition duration-300 hover:bg-light-purple hover:text-white-200 focus-within:bg-light-purple focus-within:text-white-200 active:bg-dark-purple`}
+            className={`flex content-center bg-white-200 text-light-purple text-shadow-2xs border border-light-purple p-3 rounded-full shadow transition duration-300 hover:bg-light-purple hover:text-white-200 focus-visible:bg-light-purple focus-visible:text-white-200 active:bg-dark-purple`}
           >
             {network.icon}
           </a>

@@ -27,7 +27,7 @@ export default function Projects() {
               className={`rounded-4xl`}
             >
               <figure
-                className={`relative w-[280px] border-2 border-light-pink-100 rounded-4xl shadow overflow-hidden transition duration-300 hover:border-light-pink-200 xl:w-[449px]`}
+                className={`relative w-[280px] border-2 border-light-pink-100 rounded-4xl shadow overflow-hidden transition duration-300 hover:border-light-pink-200 in-focus-visible:border-light-pink-200 xl:w-[449px]`}
               >
                 <picture>
                   <source
@@ -43,7 +43,7 @@ export default function Projects() {
                     alt={card.alt}
                     width={280}
                     height={400}
-                    className={`rounded-4xl transition duration-300 hover:scale-110`}
+                    className={`rounded-4xl transition duration-300 hover:scale-110 in-focus-visible:scale-110`}
                   />
                 </picture>
 

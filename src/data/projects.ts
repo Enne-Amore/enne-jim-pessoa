@@ -20,7 +20,7 @@ export const projects = [
       caption:
         "Construção de uma landing page intuitiva para divulgar a organização",
       captionStyle: "font-title-cnbpb xl:text-32px xl:w-[780px]",
-      downStyle: "text-[#F2E530] hover:text-[#F2C029]",
+      downStyle: "text-[#F2E530] hover:text-[#F2C029] focus-visible:text-[#F2C029]",
     },
     accesses: {
       img: "/assets/cnbpb-home-page.png",
@@ -33,9 +33,9 @@ export const projects = [
       urlGitHub: "https://github.com/Enne-Amore/coletive-nb",
       ariaLabelGitHub: "Acessar o repositório do projeto no GitHub",
       urlMainStyle:
-        "bg-[#F2E530] text-[#040008] hover:bg-[#F2C029] active:bg-[#FFFEF6] active:text-[#F2C029]",
+        "bg-[#F2E530] text-[#040008] hover:bg-[#F2C029] focus-visible:bg-[#F2C029] active:bg-[#FFFEF6] active:text-[#F2C029]",
       urlSecondaryStyle:
-        "bg-[#F2E530]/20 border-2 border-[#F2E530] text-[#040008] hover:bg-[#F2E530] active:border-[#F2C029] active:bg-[#F2C029]",
+        "bg-[#F2E530]/20 border-2 border-[#F2E530] text-[#040008] hover:bg-[#F2E530] focus-visible:bg-[#F2E530] active:border-[#F2C029] active:bg-[#F2C029]",
     },
   },
   {
@@ -59,7 +59,7 @@ export const projects = [
       caption:
         "Desenvolvimento de um portfólio web artístico com seus principais trabalhos",
       captionStyle: "xl:text-28px xl:w-[620px]",
-      downStyle: "text-[#F2B705] hover:text-[#DB9406]",
+      downStyle: "text-[#F2B705] hover:text-[#DB9406] focus-visible:text-[#DB9406]",
     },
     accesses: {
       img: "/assets/janai-amitaf-home-page.png",
@@ -72,9 +72,9 @@ export const projects = [
       urlGitHub: "https://github.com/Enne-Amore/janai-amitaf",
       ariaLabelGitHub: "Acessar o repositório do projeto no GitHub",
       urlMainStyle:
-        "bg-[#F2B705] text-[#05000C] hover:bg-[#DB9406] active:bg-[#F8F3FF] active:text-[#DB9406]",
+        "bg-[#F2B705] text-[#05000C] hover:bg-[#DB9406] focus-visible:bg-[#DB9406] active:bg-[#F8F3FF] active:text-[#DB9406]",
       urlSecondaryStyle:
-        "bg-[#F2B705]/20 border-2 border-[#F2B705] text-[#05000C] hover:bg-[#F2B705] active:border-[#DB9406] active:bg-[#DB9406]",
+        "bg-[#F2B705]/20 border-2 border-[#F2B705] text-[#05000C] hover:bg-[#F2B705] focus-visible:bg-[#F2B705] active:border-[#DB9406] active:bg-[#DB9406]",
     },
   },
 ];

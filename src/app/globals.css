@@ -47,6 +47,7 @@
   --spacing-16: 60px;
   --spacing-12: 50px;
   --spacing-8: 30px;
+  --animate-btnDown: downBtn 1s ease-in alternate infinite ;
 }
 
 /* Scrollbar */
@@ -106,5 +107,13 @@ body {
   to {
     transform: translateX(0px);
     opacity: 1;
+  }
+}
+@keyframes downBtn {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
   }
 }

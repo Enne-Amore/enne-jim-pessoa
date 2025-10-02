@@ -12,7 +12,7 @@
 
 ## 🎞️ Pré-visualização
 
- <img src="https://github.com/Enne-Amore/enne-jim-pessoa/blob/main/public/assets/preview.gif?raw=true" alt="Pré-visualização do site" width="340" height="200">
+ <img src="public/assets/preview.gif" alt="Pré-visualização do site" width="340" height="200">
 
 
 ## ⚡ Funcionalidades
@@ -36,6 +36,7 @@
    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdKj0luKnS60quv6sXxn5JzSZ8Mk0kcFbAA&s" title="React Hook Form" alt="React Hook Form" width="40" height="40"/>
    <img src="https://miro.medium.com/v2/resize:fit:1080/1*9l9kbbiuFHWVqcjUJZcdYw.png" title="Zod" alt="Zod" width="40" height="40"/>
    <img src="https://www.emailjs.com/logo.png" title="EmailJS" alt="EmailJS" width="40" height="40"/>
+   <img src="https://avatars.githubusercontent.com/u/139895814?v=4" title="Shadcn UI" alt="Shadcn UI" width="40" height="40"/>
    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="Git" alt="Git" width="40" height="40"/>
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" title="Visual Studio Code" alt="Visual Studio Code" width="40" height="40"/>
    <img src="https://blog.greggant.com/images/posts/2019-04-25-figma/Figma.png" title="Figma" alt="Figma" width="40" height="40"/>

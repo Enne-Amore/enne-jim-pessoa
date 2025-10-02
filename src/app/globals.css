@@ -2,18 +2,28 @@
 
 @font-face {
   font-family: "font-lexia-readable";
-  src: url(../fonts/lexia_readable/LexieReadable-Bold.ttf) format(truetype);
+  src: url(../fonts/home-page/lexia_readable/LexieReadable-Bold.ttf) format(truetype);
   font-display: swap;
 }
 @font-face {
   font-family: "font-open-dyslexic-regular";
-  src: url(../fonts/open_dyslexic/OpenDyslexicAlta-Regular.otf) format(opentype);
+  src: url(../fonts/home-page/open_dyslexic/OpenDyslexicAlta-Regular.otf) format(opentype);
   font-display: swap;
 }
 @font-face {
   font-family: "font-open-dyslexic-bold";
-  src: url(../fonts/open_dyslexic/OpenDyslexicAlta-Bold.otf) format(opentype);
+  src: url(../fonts/home-page/open_dyslexic/OpenDyslexicAlta-Bold.otf) format(opentype);
   font-display: swap;
+}
+@font-face {
+  font-family: "geometos-rounded";
+  src: url(../fonts/cnbpb/geometos-rounded/geometos-rounded.ttf) format(truetype);
+  font-display: swap;
+}
+@font-face {
+  font-family: "bitter";
+  font-display: swap;
+  src: url(../fonts/janai-amitaf/bitter/Bitter-VariableFont_wght.ttf) format(truetype);
 }
 
 @theme inline {
@@ -37,6 +47,7 @@
   --spacing-16: 60px;
   --spacing-12: 50px;
   --spacing-8: 30px;
+  --animate-btnDown: downBtn 1s ease-in alternate infinite ;
 }
 
 /* Scrollbar */
@@ -76,6 +87,12 @@ body {
   -webkit-text-fill-color: transparent;
   text-shadow: 4px 4px 4px #2824260D, 4px 4px 4px #FFD1E908;
 }
+.font-title-cnbpb {
+  font-family: "geometos-rounded", sans-serif;
+}
+.font-title-janai-amitaf {
+  font-family: "bitter", sans-serif;
+}
 
 .notify-toastify {
   @apply min-w-[290px] bg-[#00B09B] text-base rounded-4xl xl:w-max xl:text-xl xl:translate-x-full;
@@ -90,5 +107,13 @@ body {
   to {
     transform: translateX(0px);
     opacity: 1;
+  }
+}
+@keyframes downBtn {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
   }
 }

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import { ThemeProvider } from "@/providers/theme-provider";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 
 const poppins = Poppins({
@@ -86,6 +88,12 @@ export default function RootLayout({
         <ThemeProvider attribute={"class"} defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>
+
+        <GoogleAnalytics gaId="G-FBBVDXR0FH" />
+
+        <GoogleTagManager gtmId="GTM-5LC6VJRJ" />
+
+        <Analytics />
       </body>
     </html>
   );

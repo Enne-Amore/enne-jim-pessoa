@@ -7,7 +7,7 @@
 
 ## 🌐 Aplicação Hospedada
 
- [Clique aqui para acessar o website](https://enne-jim-pessoa.vercel.app)
+ [Clique aqui para acessar o website](https://ennejimpessoa.vercel.app)
 
 
 ## 🎞️ Pré-visualização

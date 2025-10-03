@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   },
   manifest: "/favicon/site.webmanifest",
   verification: {
-    google: "",
+    google: "N2dwzMN_2Th96csMroFlIe8sR3g7oWyBad-oQcxxWxA",
   },
   robots: {
     index: true,

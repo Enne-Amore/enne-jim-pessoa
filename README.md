@@ -138,6 +138,15 @@
  - **Poppins**  
    Exemplo de uso:  
    `font-family: var(--font-poppins);` ou `font-poppins`
+ - **Geometos Rounded**  
+   Exemplo de uso:  
+   `font-family: "geometos-rounded";` ou `font-geometos-rounded`
+ - **Open Sans**  
+   Exemplo de uso:  
+   `font-family: sans-serif;` ou `font-open-sans`
+ - **Bitter**  
+   Exemplo de uso:  
+   `font-family: "bitter";` ou `font-bitter`
 
 
 ## 🌟 Referências de Uso

@@ -7,7 +7,7 @@
 
 ## 🌐 Aplicação Hospedada
 
- [Clique aqui para acessar o website](https://enne-jim-pessoa.vercel.app)
+ [Clique aqui para acessar o website](https://ennejimpessoa.vercel.app)
 
 
 ## 🎞️ Pré-visualização
@@ -153,6 +153,13 @@
 
  - [Fonte da logo do site - Flaticon](https://www.flaticon.com/br/icones-gratis/coracao)
  - [Ícones utilizados - Font Awesome](https://react-icons.github.io/react-icons/icons/fa6)
+ - [Fonte de texto Lexia Readable - Dafont](https://www.dafont.com/pt/lexia-readable.font)
+ - [Fonte de texto Open Dyslexic - Dafont](https://www.dafont.com/pt/open-dyslexic.font)
+ - [Fonte de texto Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins)
+ - [Fonte de texto Geometos Rounded - Dafont](https://www.dafont.com/pt/geometos-rounded.font)
+ - [Fonte de texto Open Sans - Google Fonts](https://fonts.google.com/specimen/Open+Sans?query=sans+serif)
+ - [Fonte de texto Bitter - Google Fonts](https://fonts.google.com/specimen/Bitter)
+ - [Imagem ilustrativa do hero - Undraw](https://undraw.co/illustrations)
 
 
 ## 🔧 Suporte

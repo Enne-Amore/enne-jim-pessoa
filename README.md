@@ -131,19 +131,35 @@
 
  - **Lexia Readable**  
    Exemplo de uso:  
-   `font-family: "font-lexia-readable";` ou `font-title`
+   `font-family: "lexia-readable";` ou `font-lexia-readable`
  - **Open Dyslexic Alta**  
    Exemplo de uso:  
-   `font-family: "font-open-dyslexic-regular";`, `font-family: "font-open-dyslexic-bold";` ou `font-text`
+   `font-family: "open-dyslexic";`, `font-family: "open-dyslexic-bold";` ou `font-open-dyslexic`
  - **Poppins**  
    Exemplo de uso:  
    `font-family: var(--font-poppins);` ou `font-poppins`
+ - **Geometos Rounded**  
+   Exemplo de uso:  
+   `font-family: "geometos-rounded";` ou `font-geometos-rounded`
+ - **Open Sans**  
+   Exemplo de uso:  
+   `font-family: sans-serif;` ou `font-open-sans`
+ - **Bitter**  
+   Exemplo de uso:  
+   `font-family: "bitter";` ou `font-bitter`
 
 
 ## 🌟 Referências de Uso
 
  - [Fonte da logo do site - Flaticon](https://www.flaticon.com/br/icones-gratis/coracao)
  - [Ícones utilizados - Font Awesome](https://react-icons.github.io/react-icons/icons/fa6)
+ - [Fonte de texto Lexia Readable - Dafont](https://www.dafont.com/pt/lexia-readable.font)
+ - [Fonte de texto Open Dyslexic - Dafont](https://www.dafont.com/pt/open-dyslexic.font)
+ - [Fonte de texto Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins)
+ - [Fonte de texto Geometos Rounded - Dafont](https://www.dafont.com/pt/geometos-rounded.font)
+ - [Fonte de texto Open Sans - Google Fonts](https://fonts.google.com/specimen/Open+Sans?query=sans+serif)
+ - [Fonte de texto Bitter - Google Fonts](https://fonts.google.com/specimen/Bitter)
+ - [Imagem ilustrativa do hero - Undraw](https://undraw.co/illustrations)
 
 
 ## 🔧 Suporte

@@ -69,7 +69,7 @@ export default function Form() {
   return (
     <article className={`w-full space-y-8 xl:space-y-10`}>
       <h2
-        className={`font-title text-28px text-white-200 text-center text-shadow-2xs leading-10 mx-auto xl:text-32px xl:leading-11 xl:w-[400px]`}
+        className={`font-lexia-readable text-28px text-white-200 text-center text-shadow-2xs leading-10 mx-auto xl:text-32px xl:leading-11 xl:w-[400px]`}
       >
         Será um prazer enorme trabalhar com você!
       </h2>

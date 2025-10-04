@@ -7,7 +7,7 @@ export default function Hero() {
     >
       <div className={`flex flex-col items-center gap-8`}>
         <h2
-          className={`font-title text-44px text-center text-shadow-2xs leading-14 flex flex-col items-center xl:text-5xl`}
+          className={`font-lexia-readable text-44px text-center text-shadow-2xs leading-14 flex flex-col items-center xl:text-5xl`}
         >
           <span className={`text-black dark:text-white-200`}>Venha conhecer</span>
 

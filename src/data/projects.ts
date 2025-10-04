@@ -19,7 +19,7 @@ export const projects = [
       imgStyle: "xl:w-[522px]",
       caption:
         "Construção de uma landing page intuitiva para divulgar a organização",
-      captionStyle: "font-title-cnbpb xl:text-32px xl:w-[780px]",
+      captionStyle: "font-geometos-rounded xl:text-32px xl:w-[780px]",
       downStyle: "text-[#F2E530] hover:text-[#F2C029] focus-visible:text-[#F2C029]",
     },
     accesses: {
@@ -58,7 +58,7 @@ export const projects = [
       imgStyle: "w-[160px] xl:w-[181px]",
       caption:
         "Desenvolvimento de um portfólio web artístico com seus principais trabalhos",
-      captionStyle: "xl:text-28px xl:w-[620px]",
+      captionStyle: "font-semibold xl:text-28px xl:w-[620px]",
       downStyle: "text-[#F2B705] hover:text-[#DB9406] focus-visible:text-[#DB9406]",
     },
     accesses: {

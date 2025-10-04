@@ -22,17 +22,20 @@ export default function MenuDialogMobile() {
       <Dialog
         open={isOpen}
         onClose={() => setIsOpen(false)}
-        transition
-        className={`relative z-50 transition duration-200 ease-out data-closed:opacity-0`}
+        className={`relative z-50`}
       >
-        <DialogBackdrop className={`fixed inset-0 bg-gray/60`} />
+        <DialogBackdrop
+          transition
+          className={`fixed inset-0 bg-gray/60 transition duration-200 ease-out data-closed:opacity-0`}
+        />
 
         <div className={`fixed inset-0 flex w-screen justify-end`}>
           <DialogPanel
-            className={`bg-radial from-light-purple to-dark-purple p-8 flex flex-col items-center`}
+            transition
+            className={`bg-radial from-light-purple to-dark-purple p-8 flex flex-col items-center transition duration-300 ease-out data-closed:translate-x-4 data-closed:opacity-0`}
           >
             <DialogTitle
-              className={`font-title font-bold text-28px text-shadow-2xs`}
+              className={`font-lexia-readable font-bold text-28px text-shadow-2xs`}
               as="h2"
             >
               Navegação
@@ -42,7 +45,7 @@ export default function MenuDialogMobile() {
               className={`w-full rounded border-3 border-white mt-2 mb-3.5 shadow`}
             />
 
-            <NavItems />
+            <NavItems clickLinkMobile={() => setIsOpen(false)} />
           </DialogPanel>
         </div>
       </Dialog>

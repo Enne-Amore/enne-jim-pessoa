@@ -131,10 +131,10 @@
 
  - **Lexia Readable**  
    Exemplo de uso:  
-   `font-family: "font-lexia-readable";` ou `font-title`
+   `font-family: "lexia-readable";` ou `font-lexia-readable`
  - **Open Dyslexic Alta**  
    Exemplo de uso:  
-   `font-family: "font-open-dyslexic-regular";`, `font-family: "font-open-dyslexic-bold";` ou `font-text`
+   `font-family: "open-dyslexic";`, `font-family: "open-dyslexic-bold";` ou `font-open-dyslexic`
  - **Poppins**  
    Exemplo de uso:  
    `font-family: var(--font-poppins);` ou `font-poppins`

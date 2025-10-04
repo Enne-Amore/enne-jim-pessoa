@@ -5,7 +5,7 @@ export interface NavItemsInterface {
   isMain?: boolean;
 }
 
-export default function NavItems() {
+export default function NavItems(props: { clickLinkMobile?: () => void }) {
   // List of navigation items data
   const links: NavItemsInterface[] = [
     {
@@ -29,10 +29,14 @@ export default function NavItems() {
   return (
     <ul className={`flex flex-col items-center gap-1.5 xl:flex-row`}>
       {links.map((link, index) => (
-        <li key={index} className={`py-3.5 ${link.isMain ? "mt-3.5 xl:mt-0" : ""}`}>
+        <li
+          key={index}
+          className={`py-3.5 ${link.isMain ? "mt-3.5 xl:mt-0" : ""}`}
+        >
           <a
             href={link.url}
             aria-label={link.ariaLabel}
+            onClick={props.clickLinkMobile}
             className={`text-xl text-shadow-2xs py-3.5 rounded-4xl transition xl:text-2xl ${
               link.isMain
                 ? "bg-dark-pink-100 px-7 mt-3.5 font-bold shadow hover:bg-dark-pink-200 focus-visible:bg-dark-pink-200 active:bg-white-300 active:text-dark-pink-200 xl:mt-0 xl:ml-5"

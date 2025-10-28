@@ -34,24 +34,13 @@ export default function About() {
           Conheça-me mais
         </h2>
 
-        <div className={`font-open-dyslexic text-xl text-shadow-2xs leading-8`}>
-          <p>
-            Atuo em <strong>UI/UX Design</strong> e em{" "}
-            <strong>Desenvolvimento Front-end</strong>, sou graduade em{" "}
-            <strong>Sistemas Para Internet</strong> e estou me pós-graduando em{" "}
-            <strong>User Experience</strong>, pois sempre amei trabalhar
-            principalmente com o visual de projetos dentro da Tecnologia da
-            Informação (TI) e do Design.
-          </p>
-
-          <p>
-            Desenvolvo nessas áreas dentro e fora da faculdade continuamente, e
-            também tenho interesse em ajudar comunidades minorizadas e diversas
-            socialmente com empatia através das minhas habilidades técnicas e
-            comportamentais nas quais vivo evoluindo diariamente, além de
-            incluir <strong>acessibilidade web</strong> nos meus trabalhos.
-          </p>
-        </div>
+        <p className={`font-open-dyslexic text-xl text-shadow-2xs leading-8 xl:text-2xl xl:leading-9`}>
+          Desenvolvo nessas áreas dentro e fora da faculdade continuamente, e
+          também tenho interesse em ajudar comunidades minorizadas e diversas
+          socialmente com empatia através das minhas habilidades técnicas e
+          comportamentais nas quais vivo evoluindo diariamente, além de
+          incluir <strong>acessibilidade web</strong> nos meus trabalhos.
+        </p>
 
         <ul
           className={`flex flex-col items-center gap-5 mt-7 xl:flex-row xl:mt-5`}

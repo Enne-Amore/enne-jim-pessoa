@@ -1,4 +1,5 @@
 import About from "../about";
+import AcademicBackgrounds from "../academic-backgrounds";
 import Contacts from "../contacts";
 import Hero from "../hero";
 import Projects from "../projects";
@@ -11,6 +12,8 @@ export default function Main() {
       <Hero />
 
       <Projects />
+
+      <AcademicBackgrounds />
 
       <About />
 

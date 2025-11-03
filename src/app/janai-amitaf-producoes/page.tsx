@@ -14,7 +14,10 @@ export default function JanaiAmitafProducoes() {
         positionStyle={data.header.positionStyle}
         img={data.header.img}
         alt={data.header.alt}
-        imgStyle={data.header.imgStyle}
+        mobileWidth={data.header.mobileWidth}
+        mobileHeight={data.header.mobileHeight}
+        desktopWidth={data.header.desktopWidth}
+        desktopHeight={data.header.desktopHeight}
         caption={data.header.caption}
         captionStyle={data.header.captionStyle}
         downStyle={data.header.downStyle}

@@ -16,7 +16,10 @@ export const projects = [
       positionStyle: "bg-[#6A4EA6]/80",
       img: "/assets/cnbpb-project-header.png",
       alt: "Coletive Não-Binárie da Paraíba",
-      imgStyle: "xl:w-[522px]",
+      mobileWidth: "320",
+      mobileHeight: "80",
+      desktopWidth: "522",
+      desktopHeight: "134",
       caption:
         "Construção de uma landing page intuitiva para divulgar a organização",
       captionStyle: "font-geometos-rounded xl:text-32px xl:w-[780px]",
@@ -56,7 +59,10 @@ export const projects = [
       positionStyle: "text-[#232027] bg-[#F2B705]",
       img: "/assets/janai-amitaf-project-header.png",
       alt: "Janai Amitáf Produções",
-      imgStyle: "w-[160px] xl:w-[181px]",
+      mobileWidth: "160",
+      mobileHeight: "246",
+      desktopWidth: "181",
+      desktopHeight: "279",
       caption:
         "Desenvolvimento de um portfólio web artístico com seus principais trabalhos",
       captionStyle: "font-semibold xl:text-28px xl:w-[620px]",

@@ -31,27 +31,12 @@ export default function About() {
         <h2
           className={`font-lexia-readable text-white-300 text-32px text-shadow-2xs`}
         >
-          Conheça-me mais
+          Sobre mim
         </h2>
 
-        <div className={`font-open-dyslexic text-xl text-shadow-2xs leading-8`}>
-          <p>
-            Atuo em <strong>UI/UX Design</strong> e em{" "}
-            <strong>Desenvolvimento Front-end</strong>, sou graduade em{" "}
-            <strong>Sistemas Para Internet</strong> e estou me pós-graduando em{" "}
-            <strong>User Experience</strong>, pois sempre amei trabalhar
-            principalmente com o visual de projetos dentro da Tecnologia da
-            Informação (TI) e do Design.
-          </p>
-
-          <p>
-            Desenvolvo nessas áreas dentro e fora da faculdade continuamente, e
-            também tenho interesse em ajudar comunidades minorizadas e diversas
-            socialmente com empatia através das minhas habilidades técnicas e
-            comportamentais nas quais vivo evoluindo diariamente, além de
-            incluir <strong>acessibilidade web</strong> nos meus trabalhos.
-          </p>
-        </div>
+        <p className={`font-open-dyslexic text-xl text-shadow-2xs leading-8 xl:text-2xl xl:leading-9`}>
+          Trabalhar na interseção entre <strong>Tecnologia e Design</strong> é onde posso unir lógica e sensibilidade para criar <strong>experiências digitais acessíveis e cheias de significado</strong>. Valorizo muito a <strong>comunicação contínua, o trabalho em equipe e o aprendizado compartilhado</strong>, pois sei que boas soluções nascem de pessoas diversas que colaboram com empatia e escuta ativa. Vejo nas minhas áreas não apenas uma ferramenta estética, mas uma forma de <strong>transformar o digital em um espaço mais humano e acolhedor</strong>.
+        </p>
 
         <ul
           className={`flex flex-col items-center gap-5 mt-7 xl:flex-row xl:mt-5`}

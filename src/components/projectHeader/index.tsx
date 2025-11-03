@@ -31,13 +31,22 @@ export default function ProjectHeader(props: ProjectsType["header"]) {
       </div>
 
       <figure className={`flex flex-col items-center gap-12 xl:gap-16`}>
-        <Image
-          src={props.img}
-          alt={props.alt}
-          width={320}
-          height={80}
-          className={`${props.imgStyle} h-auto drop-shadow`}
-        />
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            width={Number(props.desktopWidth)}
+            height={Number(props.desktopHeight)}
+            type="image/png"
+          />
+
+          <Image
+            src={props.img}
+            alt={props.alt}
+            width={Number(props.mobileWidth)}
+            height={Number(props.mobileHeight)}
+            className={`xl:w-[${props.desktopWidth}px] drop-shadow`}
+          />
+        </picture>
 
         <figcaption
           className={`${props.captionStyle} text-xl text-center text-shadow-2xs`}

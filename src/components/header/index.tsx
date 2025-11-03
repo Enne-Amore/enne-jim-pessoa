@@ -19,7 +19,7 @@ export default function Header() {
         />
 
         <h1
-          className={`font-lexia-readable text-white-200 text-32px text-shadow-2xs w-36 leading-8 xl:w-full xl:text-4xl`}
+          className={`font-lexia-readable text-white-200 text-32px text-shadow-2xs w-36 leading-8 translate-y-1 sm:w-full xl:text-4xl sm:translate-y-0`}
         >
           Enne Jim Pessoa
         </h1>

@@ -15,12 +15,16 @@ export interface ProjectsType {
     positionStyle: string;
     img: string;
     alt: string;
-    imgStyle: string;
+    mobileWidth: string,
+    mobileHeight: string,
+    desktopWidth: string,
+    desktopHeight: string,
     caption: string;
     captionStyle: string;
     downStyle: string;
   };
   accesses: {
+    id: string;
     img: string;
     alt: string;
     urlSite?: string;

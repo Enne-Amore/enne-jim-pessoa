@@ -4,7 +4,10 @@ import { FaGlobe, FaFigma, FaGithub } from "react-icons/fa6";
 
 export default function ProjectAccesses(props: ProjectsType["accesses"]) {
   return (
-    <section className={`flex flex-col items-center gap-10 xl:gap-16`}>
+    <section
+      id={props.id}
+      className={`flex flex-col items-center gap-10 xl:gap-16`}
+    >
       <figure>
         <Image
           src={props.img}

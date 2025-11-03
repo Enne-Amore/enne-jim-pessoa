@@ -1,4 +1,5 @@
 "use client";
+
 import {
   Dialog,
   DialogBackdrop,
@@ -8,6 +9,7 @@ import {
 import { useState } from "react";
 import { FaBars } from "react-icons/fa6";
 import NavItems from "@/components/header/navItems";
+import ColorTheme from "../colorTheme";
 
 export default function MenuDialogMobile() {
   // State to control the dialog visibility
@@ -39,7 +41,7 @@ export default function MenuDialogMobile() {
             className={`bg-radial from-light-purple to-dark-purple p-8 flex flex-col items-center transition duration-300 ease-out data-closed:translate-x-4 data-closed:opacity-0`}
           >
             <DialogTitle
-              className={`font-lexia-readable font-bold text-28px text-shadow-2xs`}
+              className={`font-lexia-readable text-28px text-shadow-2xs`}
               as="h2"
             >
               Navegação
@@ -50,6 +52,8 @@ export default function MenuDialogMobile() {
             />
 
             <NavItems clickLinkMobile={() => setIsOpen(false)} />
+
+            <ColorTheme />
           </DialogPanel>
         </div>
       </Dialog>

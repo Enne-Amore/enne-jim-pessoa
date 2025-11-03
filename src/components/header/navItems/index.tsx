@@ -19,6 +19,11 @@ export default function NavItems(props: { clickLinkMobile?: () => void }) {
       label: "Sobre Mim",
     },
     {
+      url: "#formacoes",
+      ariaLabel: "Ir à seção de formações",
+      label: "Formações",
+    },
+    {
       url: "#contatos",
       ariaLabel: "Ir à seção de contatos",
       label: "Contate-me",
@@ -27,7 +32,7 @@ export default function NavItems(props: { clickLinkMobile?: () => void }) {
   ];
 
   return (
-    <ul className={`flex flex-col items-center gap-1.5 xl:flex-row`}>
+    <ul className={`flex flex-col items-center gap-1.5 xl:flex-row xl:gap-0`}>
       {links.map((link, index) => (
         <li
           key={index}

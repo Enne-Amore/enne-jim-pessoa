@@ -3,16 +3,17 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section
+      id="hero"
       className={`w-[330px] flex flex-col-reverse items-center gap-12 xl:w-[1078px] xl:flex-row xl:justify-between`}
     >
       <div className={`flex flex-col items-center gap-8`}>
         <h2
           className={`font-lexia-readable text-44px text-center text-shadow-2xs leading-14 flex flex-col items-center xl:text-5xl`}
         >
-          <span className={`text-black dark:text-white-200`}>Venha conhecer</span>
+          <span className={`text-black`}>Venha conhecer</span>
 
           <span
-            className={`bg-clip-text text-transparent bg-gradient-to-br from-dark-purple to-light-purple dark:text-light-purple`}
+            className={`bg-clip-text text-transparent bg-gradient-to-br from-dark-purple to-light-purple`}
           >
             os meus trabalhos
           </span>

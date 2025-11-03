@@ -21,6 +21,7 @@ export interface ProjectsType {
     downStyle: string;
   };
   accesses: {
+    id: string;
     img: string;
     alt: string;
     urlSite?: string;

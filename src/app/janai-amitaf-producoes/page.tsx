@@ -25,6 +25,7 @@ export default function JanaiAmitafProducoes() {
         className={`bg-[#FCFAFF] flex flex-col items-center gap-20 py-20 xl:gap-28 xl:py-28`}
       >
         <ProjectAccesses
+          id={data.accesses.id}
           img={data.accesses.img}
           alt={data.accesses.alt}
           urlSite={data.accesses.urlSite}

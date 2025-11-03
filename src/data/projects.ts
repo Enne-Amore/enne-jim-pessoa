@@ -23,6 +23,7 @@ export const projects = [
       downStyle: "text-[#F2E530] hover:text-[#F2C029] focus-visible:text-[#F2C029]",
     },
     accesses: {
+      id: "accesses-cnbpb",
       img: "/assets/cnbpb-home-page.png",
       alt: "Pré-visualização da página inicial do site do Coletive Não-Binárie da Paraíba",
       urlSite: "https://enne-amore.github.io/coletive-nb",
@@ -62,6 +63,7 @@ export const projects = [
       downStyle: "text-[#F2B705] hover:text-[#DB9406] focus-visible:text-[#DB9406]",
     },
     accesses: {
+      id: "accesses-janai-amitaf",
       img: "/assets/janai-amitaf-home-page.png",
       alt: "Pré-visualização da página inicial do site de Janai Amitáf Produções",
       urlSite: "https://janai-amitaf.vercel.app",

@@ -60,17 +60,51 @@
   @apply w-[15px];
 }
 ::-webkit-scrollbar-track {
-  @apply bg-white-100 dark:bg-gray;
+  @apply bg-white-100;
 }
 ::-webkit-scrollbar-thumb {
-  @apply bg-dark-pink-100 rounded-full dark:bg-light-pink-100;
+  @apply bg-dark-pink-100 rounded-full;
 }
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-dark-pink-200 dark:bg-light-pink-200;
+  @apply bg-dark-pink-200;
 }
 
 body {
   @apply bg-light-pink-100 font-poppins text-white-100 animate-[fade_0.5s_ease-in-out];
+}
+
+/* Dark mode */
+.dark ::-webkit-scrollbar-track {
+  @apply bg-gray;
+}
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-light-pink-100;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-light-pink-200;
+}
+.dark main {
+  @apply bg-gradient-to-b from-gray to-[#1C1A1B];
+}
+.dark #hero h2 span:first-child {
+  @apply text-white-200;
+}
+.dark #hero h2 span:last-child {
+  @apply text-light-purple;
+}
+.dark #accesses-cnbpb ul li:not(:first-child) a {
+  @apply text-[#FFFEF6];
+
+  &:hover {
+    @apply text-[#040008];
+  }
+}
+.dark #accesses-janai-amitaf ul li:not(:first-child) a {
+  @apply text-[#FCFAFF];
+  
+  &:hover {
+    @apply text-[#05000C];
+  }
 }
 
 /* Texts */

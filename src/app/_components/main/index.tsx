@@ -13,9 +13,9 @@ export default function Main() {
 
       <Projects />
 
-      <AcademicBackgrounds />
-
       <About />
+
+      <AcademicBackgrounds />
 
       <Contacts />
     </main>

@@ -36,7 +36,7 @@ export default function Form() {
   // Form submission handler
   function onSubmit(data: ContactFormSchema) {
     // Update button text to indicate sending
-    setSubmit("Enviando...");
+    setSubmit("Enviando ...");
     console.table(data);
 
     // Send email using EmailJS
@@ -114,6 +114,7 @@ export default function Form() {
 
         <button
           type="submit"
+          aria-label="Enviar mensagem de email"
           className={`font-bold text-xl text-shadow-2xs bg-light-purple px-12 py-4 shadow rounded-4xl cursor-pointer transition duration-300 hover:bg-dark-purple focus-visible:bg-dark-purple active:bg-white-300 active:text-dark-purple xl:text-2xl`}
         >
           {submit}

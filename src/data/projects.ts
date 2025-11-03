@@ -3,7 +3,7 @@ export const projects = [
     id: "1",
     card: {
       url: "/coletive-nao-binarie-paraiba",
-      ariaLabel: "Ir à página desse projeto específico",
+      ariaLabel: "Ir à página sobre o projeto Coletive Não-Binárie da Paraíba",
       imgMobile: "cnbpb-mobile.avif",
       imgDesktop: "cnbpb-desktop.avif",
       alt: "Logo do Coletive Não-Binárie da Paraíba",
@@ -42,7 +42,7 @@ export const projects = [
     id: "2",
     card: {
       url: "/janai-amitaf-producoes",
-      ariaLabel: "Ir à página desse projeto específico",
+      ariaLabel: "Ir à página sobre o projeto Janai Amitáf Produções",
       imgMobile: "janai-amitaf-mobile.avif",
       imgDesktop: "janai-amitaf-desktop.avif",
       alt: "Logo de Janai Amitáf Produções",

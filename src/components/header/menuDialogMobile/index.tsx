@@ -15,7 +15,11 @@ export default function MenuDialogMobile() {
 
   return (
     <nav className={`xl:hidden h-11`}>
-      <button type="button" onClick={() => setIsOpen(true)}>
+      <button
+        type="button"
+        aria-label="Abrir menu de navegação"
+        onClick={() => setIsOpen(true)}
+      >
         <FaBars className={`w-11 h-11 text-shadow-2xs`} />
       </button>
 

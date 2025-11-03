@@ -31,15 +31,11 @@ export default function About() {
         <h2
           className={`font-lexia-readable text-white-300 text-32px text-shadow-2xs`}
         >
-          Conheça-me mais
+          Sobre mim
         </h2>
 
         <p className={`font-open-dyslexic text-xl text-shadow-2xs leading-8 xl:text-2xl xl:leading-9`}>
-          Desenvolvo nessas áreas dentro e fora da faculdade continuamente, e
-          também tenho interesse em ajudar comunidades minorizadas e diversas
-          socialmente com empatia através das minhas habilidades técnicas e
-          comportamentais nas quais vivo evoluindo diariamente, além de
-          incluir <strong>acessibilidade web</strong> nos meus trabalhos.
+          Trabalhar na interseção entre <strong>Tecnologia e Design</strong> é onde posso unir lógica e sensibilidade para criar <strong>experiências digitais acessíveis e cheias de significado</strong>. Valorizo muito a <strong>comunicação contínua, o trabalho em equipe e o aprendizado compartilhado</strong>, pois sei que boas soluções nascem de pessoas diversas que colaboram com empatia e escuta ativa. Vejo nas minhas áreas não apenas uma ferramenta estética, mas uma forma de <strong>transformar o digital em um espaço mais humano e acolhedor</strong>.
         </p>
 
         <ul

@@ -27,7 +27,7 @@ export default function About() {
       id="sobre"
       className={`w-full bg-gradient-to-b from-light-purple to-dark-purple px-9 pt-10 pb-16 flex flex-col items-center justify-center gap-12 shadow xl:flex-row xl:gap-100px xl:pt-14`}
     >
-      <article className={`space-y-1 xl:w-[675px]`}>
+      <article className={`xl:space-y-1 xl:w-[675px]`}>
         <h2
           className={`font-lexia-readable text-white-300 text-32px text-shadow-2xs`}
         >
@@ -83,7 +83,7 @@ export default function About() {
           </span>
 
           <span
-            className={`font-medium text-gray text-xs text-shadow-2xs bg-gradient-to-br from-light-pink-200 to-light-pink-100 shadow px-4 py-1.5 rounded-4xl xl:text-base`}
+            className={`font-medium text-gray text-xs text-shadow-2xs bg-gradient-to-br from-light-pink-200 to-light-pink-100 shadow px-2.5 py-1 rounded-4xl xl:text-base xl:px-3.5`}
           >
             Ê/Elu/-e
           </span>

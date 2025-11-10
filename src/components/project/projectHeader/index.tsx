@@ -23,6 +23,7 @@ export default function ProjectHeader(props: ProjectsType["header"]) {
             <li
               key={index}
               className={`w-max text-xs text-shadow-2xs ${props.positionStyle} px-3.5 py-1 rounded-4xl shadow xl:text-base`}
+              lang="en"
             >
               {position}
             </li>
@@ -34,6 +35,7 @@ export default function ProjectHeader(props: ProjectsType["header"]) {
         <picture>
           <source
             media="(min-width: 1280px)"
+            srcSet={props.img}
             width={Number(props.desktopWidth)}
             height={Number(props.desktopHeight)}
             type="image/png"

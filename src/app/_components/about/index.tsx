@@ -35,7 +35,7 @@ export default function About() {
         </h2>
 
         <p className={`font-open-dyslexic text-xl text-shadow-2xs leading-8 xl:text-2xl xl:leading-9`}>
-          Trabalhar na interseção entre <strong>Tecnologia e Design</strong> é onde posso unir lógica e sensibilidade para criar <strong>experiências digitais acessíveis e cheias de significado</strong>. Valorizo muito a <strong>comunicação contínua, o trabalho em equipe e o aprendizado compartilhado</strong>, pois sei que boas soluções nascem de pessoas diversas que colaboram com empatia e escuta ativa. Vejo nas minhas áreas não apenas uma ferramenta estética, mas uma forma de <strong>transformar o digital em um espaço mais humano e acolhedor</strong>.
+          Trabalhar na interseção entre <strong>Tecnologia e <span lang="en">Design</span></strong> é onde posso unir lógica e sensibilidade para criar <strong>experiências digitais acessíveis e cheias de significado</strong>. Valorizo muito a <strong>comunicação contínua, o trabalho em equipe e o aprendizado compartilhado</strong>, pois sei que boas soluções nascem de pessoas diversas que colaboram com empatia e escuta ativa. Vejo nas minhas áreas não apenas uma ferramenta estética, mas uma forma de <strong>transformar o digital em um espaço mais humano e acolhedor</strong>.
         </p>
 
         <ul
@@ -54,7 +54,7 @@ export default function About() {
                   <FaFileLines className={`w-5 h-auto`} />
                 </span>
 
-                <span>CV {resume.label}</span>
+                <span lang="en">CV {resume.label}</span>
               </a>
             </li>
           ))}

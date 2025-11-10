@@ -24,6 +24,7 @@ export default function Hero() {
         >
           <span
             className={`w-max bg-gradient-to-br from-light-pink-200 to-light-pink-100 shadow px-7 py-3.5 rounded-4xl -translate-x-5 xl:-translate-x-10`}
+            lang="en"
           >
             UI/UX Design
           </span>
@@ -31,7 +32,7 @@ export default function Hero() {
           <span
             className={`w-max bg-gradient-to-br from-light-pink-200 to-light-pink-100 shadow px-7 py-3.5 rounded-4xl translate-x-5 xl:translate-x-10`}
           >
-            Desenvolvimento Front-end
+            Desenvolvimento <span lang="en">Front-end</span>
           </span>
         </div>
       </div>

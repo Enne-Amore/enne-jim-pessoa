@@ -30,7 +30,7 @@ export default function ProjectAccesses(props: ProjectsType["accesses"]) {
             >
               <FaGlobe className={`w-auto h-[25px] xl:h-[28px]`} />
 
-              <span>Acessar site</span>
+              <span>Acessar <span lang="en">site</span></span>
             </a>
           </li>
         )}

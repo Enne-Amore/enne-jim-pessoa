@@ -69,6 +69,7 @@ export default function Projects() {
                     <li
                       key={index}
                       className={`w-max text-gray text-xs text-shadow-2xs select-none bg-white/90 px-2.5 py-1 rounded-4xl`}
+                      lang="en"
                     >
                       {position}
                     </li>

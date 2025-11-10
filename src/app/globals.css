@@ -120,6 +120,14 @@ body {
   -webkit-text-fill-color: transparent;
   text-shadow: 4px 4px 4px #2824260D, 4px 4px 4px #FFD1E908;
 }
+#problemn-cnbpb .font-open-dyslexic strong {
+  background: linear-gradient(
+    96deg,
+    #F2E530 0%,
+    #F2E530 90%
+  );
+  background-clip: text;
+}
 
 /* Form's toach */
 .notify-toastify {

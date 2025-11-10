@@ -1,7 +1,8 @@
 import { ProjectsType } from "@/types/projectsType";
 import { projects } from "@/data/projects";
-import ProjectHeader from "@/components/projectHeader";
-import ProjectAccesses from "@/components/projectAccesses";
+import ProjectHeader from "@/components/project/projectHeader";
+import ProjectAccesses from "@/components/project/projectAccesses";
+import ProjectProblemn from "@/components/project/projectProblemn";
 
 export default function ColetiveNaoBinarieParaiba() {
   const data: ProjectsType = projects.find((project) => project.id === "1")!;
@@ -40,6 +41,8 @@ export default function ColetiveNaoBinarieParaiba() {
           urlMainStyle={data.accesses.urlMainStyle}
           urlSecondaryStyle={data.accesses.urlSecondaryStyle}
         />
+
+        <ProjectProblemn />
       </main>
     </div>
   );

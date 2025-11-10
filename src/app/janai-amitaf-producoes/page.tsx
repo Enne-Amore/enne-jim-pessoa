@@ -1,7 +1,7 @@
 import { ProjectsType } from "@/types/projectsType";
 import { projects } from "@/data/projects";
-import ProjectHeader from "@/components/projectHeader";
-import ProjectAccesses from "@/components/projectAccesses";
+import ProjectHeader from "@/components/project/projectHeader";
+import ProjectAccesses from "@/components/project/projectAccesses";
 
 export default function JanaiAmitafProducoes() {
   const data: ProjectsType = projects.find((project) => project.id === "2")!;

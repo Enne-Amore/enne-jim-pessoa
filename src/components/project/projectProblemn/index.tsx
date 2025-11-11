@@ -4,7 +4,7 @@ export default function ProjectProblemn() {
   return (
     <section
       id={`problemn-cnbpb`}
-      className={`w-full bg-gradient-to-b from-[#6A4EA6] to-[#713CA6] flex flex-col items-center gap-8 px-8 py-11 shadow xl:px-100px xl:py-70px xl:gap-10`}
+      className={`w-full bg-gradient-to-b from-[#6A4EA6] to-[#713CA6] flex flex-col items-center gap-8 px-8 py-11 shadow xl:gap-10 xl:px-100px xl:py-70px`}
     >
       <h2
         className={`font-geometos-rounded text-[#F2E530] text-28px text-center text-shadow-2xs -mb-5 xl:text-32px`}
@@ -32,13 +32,13 @@ export default function ProjectProblemn() {
       </div>
 
       <div
-        className={`flex flex-col items-center gap-8 xl:flex-row xl:max-w-[1074px] xl:justify-between`}
+        className={`flex flex-col items-center gap-8 xl:flex-row xl:w-[1074px] xl:justify-between`}
       >
         <figure>
           <picture>
             <source
               media="(min-width: 1280px)"
-              srcSet="/assets/cnbpb-membres-unides.png"
+              srcSet={`/assets/cnbpb-membres-unides.png`}
               width={450}
               height={338}
               type="image/png"
@@ -46,7 +46,7 @@ export default function ProjectProblemn() {
 
             <Image
               src={`/assets/cnbpb-membres-unides.png`}
-              alt="Todo Coletive unido em um encontro de não-bináries"
+              alt={`Todo Coletive unido em um encontro de não-bináries`}
               width={300}
               height={225}
             />

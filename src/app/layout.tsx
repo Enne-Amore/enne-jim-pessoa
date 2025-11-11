@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import { ThemeProvider } from "@/providers/theme-provider";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
@@ -10,6 +10,16 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: "400",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#11000A" },
+    { media: "(prefers-color-scheme: light)", color: "#FFFCFE" }
+  ],
+  colorScheme: "light dark"
+}
 
 export const metadata: Metadata = {
   title: "Enne Jim Pessoa",

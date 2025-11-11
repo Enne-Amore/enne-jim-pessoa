@@ -128,6 +128,14 @@ body {
   );
   background-clip: text;
 }
+#solution-cnbpb .font-open-dyslexic strong {
+  background: linear-gradient(
+    96deg,
+    #713CA6 0%,
+    #713CA6 90%
+  );
+  background-clip: text;
+}
 
 /* Form's toach */
 .notify-toastify {

@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function ProjectTargetAudience() {
   return (
     <section
-      id={`cnbpb-target-audience`}
+      id={`target-audience-cnbpb`}
       className={`flex flex-col justify-center items-center gap-12 xl:w-[1074px] xl:flex-row xl:justify-between`}
     >
       <div className={`bg-[#FFFEF6] flex flex-col items-center gap-1.5 border border-[#040008] rounded-4xl pl-10 pr-5 pt-7 pb-6 xl:pl-14 xl:pr-6 xl:pt-8 xl:pb-7`}>
-        <h2 className={`font-geometos-rounded text-28px text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text -ml-6 xl:-ml-8 xl:text-32px`}>
+        <h2 className={`font-geometos-rounded text-28px text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text -ml-6 xl:text-32px xl:-ml-8`}>
           Público-Alvo
         </h2>
 

@@ -7,7 +7,7 @@ export default function ProjectProblemn() {
       className={`w-full bg-gradient-to-b from-[#6A4EA6] to-[#713CA6] flex flex-col items-center gap-8 px-8 py-11 shadow xl:px-100px xl:py-70px xl:gap-10`}
     >
       <h2
-        className={`font-geometos-rounded text-[#F2E530] text-32px text-center text-shadow-2xs -mb-5`}
+        className={`font-geometos-rounded text-[#F2E530] text-28px text-center text-shadow-2xs -mb-5 xl:text-32px`}
       >
         Problemas enfrentados
       </h2>

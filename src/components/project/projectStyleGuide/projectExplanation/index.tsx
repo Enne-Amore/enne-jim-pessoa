@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ProjectExplanation() {
   return (
     <article
-      className={`flex flex-col justify-center items-center gap-8 xl:w-[1074px] xl:flex-row xl:justify-between`}
+      className={`flex flex-col justify-center items-center gap-9 xl:w-[1074px] xl:flex-row xl:justify-between`}
     >
       <div className={`space-y-1`}>
         <h2

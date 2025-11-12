@@ -7,11 +7,15 @@ export default function ProjectSolution() {
       className={`w-full bg-gradient-to-b from-[#F2E530] to-[#FFCE31] flex flex-col justify-center items-center gap-10 px-8 pt-11 pb-16 shadow xl:flex-row-reverse xl:gap-100px xl:px-100px xl:py-70px`}
     >
       <div className={`space-y-1`}>
-        <h2 className={`font-geometos-rounded text-28px text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text xl:text-32px`}>
+        <h2
+          className={`font-geometos-rounded text-28px text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text xl:text-32px`}
+        >
           Solução
         </h2>
 
-        <p className={`font-open-dyslexic text-xl text-[#242325] text-shadow-2xs leading-9 xl:w-[580px] xl:text-2xl xl:leading-10`}>
+        <p
+          className={`font-open-dyslexic text-xl text-[#242325] text-shadow-2xs leading-9 xl:w-[580px] xl:text-2xl xl:leading-10`}
+        >
           Necessitei construir um <strong>website</strong> em forma de <strong>landing page</strong>, seguindo o conceito de Mobile-First, que centralizasse tudo sobre o <strong>Coletive Não-Binárie da Paraíba</strong> em um único espaço virtual com a finalidade de <strong>facilitar o compartilhamento e a absorção de informações</strong> sobre o movimento social, como seus objetivos e atividades, e que contenha <strong>um botão principal</strong> de redirecionamento para o formulário de <strong>mapeamento da comunidade</strong>.
         </p>
       </div>
@@ -31,9 +35,10 @@ export default function ProjectSolution() {
             alt={`Panfleto do Coletive destacando um QR Code para o site oficial da organização`}
             width={300}
             height={375}
+            className={`rounded-4xl shadow`}
           />
         </picture>
       </figure>
     </section>
-  )
+  );
 }

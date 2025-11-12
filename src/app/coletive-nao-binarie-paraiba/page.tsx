@@ -5,6 +5,7 @@ import ProjectAccesses from "@/components/project/projectAccesses";
 import ProjectProblemn from "@/components/project/projectProblemn";
 import ProjectTargetAudience from "@/components/project/projectTargetAudience";
 import ProjectSolution from "@/components/project/projectSolution";
+import ProjectStyleGuide from "@/components/project/projectStyleGuide";
 
 export default function ColetiveNaoBinarieParaiba() {
   const data: ProjectsType = projects.find((project) => project.id === "1")!;
@@ -49,6 +50,8 @@ export default function ColetiveNaoBinarieParaiba() {
         <ProjectTargetAudience />
 
         <ProjectSolution />
+
+        <ProjectStyleGuide />
       </main>
     </div>
   );

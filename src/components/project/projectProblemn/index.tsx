@@ -25,9 +25,13 @@ export default function ProjectProblemn() {
         >
           <li className={`pl-2`}>Exclusão social</li>
 
-          <li className={`pl-2`}>Escassez de visibilidade e de representatividade</li>
+          <li className={`pl-2`}>
+            Escassez de visibilidade e de representatividade
+          </li>
 
-          <li className={`pl-2`}>Ausência de direitos acessados e protegidos</li>
+          <li className={`pl-2`}>
+            Ausência de direitos acessados e protegidos
+          </li>
         </ul>
       </div>
 

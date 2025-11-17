@@ -1,5 +1,6 @@
 import ProjectColors from "./projectColors";
 import ProjectExplanation from "./projectExplanation";
+import ProjectTypography from "./projectTypography";
 
 export default function ProjectStyleGuide() {
   return (
@@ -10,6 +11,8 @@ export default function ProjectStyleGuide() {
       <ProjectExplanation />
 
       <ProjectColors />
+
+      <ProjectTypography />
     </section>
-  )
+  );
 }

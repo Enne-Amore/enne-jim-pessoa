@@ -14,7 +14,7 @@ export default function ProjectAccesses(props: ProjectsType["accesses"]) {
           alt={props.alt}
           width={320}
           height={170}
-          className={`h-auto drop-shadow xl:w-[800px]`}
+          className={`h-auto filter drop-shadow xl:w-[800px]`}
         />
       </figure>
 

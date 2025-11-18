@@ -53,6 +53,7 @@ export default function ProjectProblemn() {
               alt={`Todo Coletive unido em um encontro de não-bináries`}
               width={300}
               height={225}
+              className={`filter drop-shadow`}
             />
           </picture>
         </figure>

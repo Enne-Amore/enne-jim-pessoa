@@ -46,7 +46,7 @@ export default function ProjectHeader(props: ProjectsType["header"]) {
             alt={props.alt}
             width={Number(props.mobileWidth)}
             height={Number(props.mobileHeight)}
-            className={`xl:w-[${props.desktopWidth}px] drop-shadow`}
+            className={`xl:w-[${props.desktopWidth}px] filter drop-shadow`}
           />
         </picture>
 

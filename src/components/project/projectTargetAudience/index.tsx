@@ -47,6 +47,7 @@ export default function ProjectTargetAudience() {
             alt={``}
             width={330}
             height={175}
+            className={`filter drop-shadow`}
           />
         </picture>
       </figure>

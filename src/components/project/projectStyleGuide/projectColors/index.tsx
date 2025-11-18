@@ -1,6 +1,6 @@
 export default function ProjectColors() {
   return (
-    <article className={`space-y-16 xl:space-y-20`}>
+    <article className={`space-y-16 xl:space-y-70px`}>
       <h3
         className={`font-geometos-rounded text-2xl text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6]/0 via-[#713CA6] to-[#713CA6]/0 pt-6 pb-5 xl:text-28px`}
       >

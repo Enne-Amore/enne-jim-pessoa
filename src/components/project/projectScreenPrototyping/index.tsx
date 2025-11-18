@@ -34,7 +34,7 @@ export default function ProjectScreenPrototyping() {
             </picture>
           </figure>
         </li>
-        
+
         <li>
           <figure>
             <picture>
@@ -58,5 +58,5 @@ export default function ProjectScreenPrototyping() {
         </li>
       </ul>
     </section>
-  )
+  );
 }

@@ -16,7 +16,7 @@ export default function About() {
       label: "UI/UX Design",
     },
     {
-      url: "https://docs.google.com/document/d/1lQnBTyK2iCydB-bHw4n8tUW54pEtBqR86aQudit6Blo/edit?usp=sharing",
+      url: "https://docs.google.com/document/d/13DFtKuUwF7iAQbUlu_oN48wvKRb-vJw7jp6k37lqPWk/edit?usp=sharing",
       ariaLabel: "Ir ao meu currículo de Front-end",
       label: "Front-end",
     },

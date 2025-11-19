@@ -1,8 +1,8 @@
 export default function ProjectDemoVideo() {
   return (
     <section
-      id={`cnbpb-demo-video`}
-      className={`flex flex-col justify-center items-center gap-8 xl:gap-10`}
+      id={`demo-video-cnbpb`}
+      className={`flex flex-col justify-center items-center gap-8 mb-4 xl:gap-10 xl:mb-auto`}
     >
       <h2
         className={`w-[260px] font-geometos-rounded text-28px text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text xl:w-full xl:text-32px`}

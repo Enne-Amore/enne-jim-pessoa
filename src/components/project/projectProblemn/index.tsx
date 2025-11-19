@@ -21,15 +21,15 @@ export default function ProjectProblemn() {
         </p>
 
         <ul
-          className={`list-['⭐'] list-outside mt-2 ml-6.5 space-y-2 xl:mt-4 xl:ml-8`}
+          className={`list-['⭐'] list-outside mt-2 ml-6.5 space-y-3 xl:mt-4 xl:ml-8`}
         >
-          <li className={`pl-2`}>Exclusão social</li>
+          <li className={`pl-2 leading-7 xl:pl-1 xl:leading-relaxed`}>Exclusão social</li>
 
-          <li className={`pl-2`}>
+          <li className={`pl-2 leading-7 xl:pl-1 xl:leading-relaxed`}>
             Escassez de visibilidade e de representatividade
           </li>
 
-          <li className={`pl-2`}>
+          <li className={`pl-2 leading-7 xl:pl-1 xl:leading-relaxed`}>
             Ausência de direitos acessados e protegidos
           </li>
         </ul>

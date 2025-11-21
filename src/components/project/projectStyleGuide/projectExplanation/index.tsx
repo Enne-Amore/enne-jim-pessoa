@@ -13,7 +13,7 @@ export default function ProjectExplanation() {
         </h2>
 
         <p
-          className={`font-open-dyslexic text-xl text-[#242325] text-shadow-2xs leading-9 xl:w-[530px] xl:text-2xl xl:leading-10`}
+          className={`font-open-dyslexic text-xl text-shadow-2xs leading-9 xl:w-[530px] xl:text-2xl xl:leading-10`}
         >
           Utilizei a <strong>logo da organização</strong> como base somada à própria <strong>bandeira não-binária</strong>, a qual representa a comunidade, com o intuito de <strong>definir as cores e as fontes</strong> do site. Desse modo, a <strong>identidade do movimento social continua consistente</strong>.
         </p>

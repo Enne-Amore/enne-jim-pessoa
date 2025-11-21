@@ -9,12 +9,13 @@ import ProjectStyleGuide from "@/components/project/projectStyleGuide";
 import ProjectScreenPrototyping from "@/components/project/projectScreenPrototyping";
 import ProjectDemoVideo from "@/components/project/projectDemoVideo";
 import ProjectImpact from "@/components/project/projectImpact";
+import ProjectFooter from "@/components/project/projectFooter";
 
 export default function ColetiveNaoBinarieParaiba() {
   const data: ProjectsType = projects.find((project) => project.id === "1")!;
 
   return (
-    <div className={`font-open-sans`}>
+    <div className={`font-open-sans bg-[#FFFFFD] text-[#242325]`}>
       <ProjectHeader
         headerStyle={data.header.headerStyle}
         positions={data.header.positions}
@@ -32,7 +33,7 @@ export default function ColetiveNaoBinarieParaiba() {
 
       <main
         id="main"
-        className={`bg-[#FFFFFD] flex flex-col items-center gap-20 py-20 xl:gap-28 xl:py-28`}
+        className={`flex flex-col items-center gap-20 pt-20 xl:gap-28 xl:pt-28`}
       >
         <ProjectAccesses
           id={data.accesses.id}
@@ -62,6 +63,8 @@ export default function ColetiveNaoBinarieParaiba() {
 
         <ProjectImpact />
       </main>
+
+      <ProjectFooter />
     </div>
   );
 }

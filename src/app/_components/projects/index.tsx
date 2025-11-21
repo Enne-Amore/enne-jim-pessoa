@@ -62,7 +62,7 @@ export default function Projects() {
                   </span>
                 </figcaption>
 
-                <ul
+                {/* <ul
                   className={`absolute top-4 w-full flex justify-center gap-3`}
                 >
                   {card.positions.map((position, index) => (
@@ -74,7 +74,7 @@ export default function Projects() {
                       {position}
                     </li>
                   ))}
-                </ul>
+                </ul> */}
               </figure>
             </Link>
           </li>

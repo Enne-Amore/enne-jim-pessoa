@@ -14,7 +14,7 @@ export default function ProjectSolution() {
         </h2>
 
         <p
-          className={`font-open-dyslexic text-xl text-[#242325] text-shadow-2xs leading-9 xl:w-[580px] xl:text-2xl xl:leading-10`}
+          className={`font-open-dyslexic text-xl text-shadow-2xs leading-9 xl:w-[580px] xl:text-2xl xl:leading-10`}
         >
           Necessitei construir um <strong>website</strong> em forma de <strong>landing page</strong>, seguindo o conceito de Mobile-First, que centralizasse tudo sobre o <strong>Coletive Não-Binárie da Paraíba</strong> em um único espaço virtual com a finalidade de <strong>facilitar o compartilhamento e a absorção de informações</strong> sobre o movimento social, como seus objetivos e atividades, e que contenha <strong>um botão principal</strong> de redirecionamento para o formulário de <strong>mapeamento da comunidade</strong>.
         </p>

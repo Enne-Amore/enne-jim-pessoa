@@ -14,7 +14,7 @@ export default function ProjectImpact() {
         </h2>
 
         <ul
-          className={`list-['⭐'] list-outside text-[#242325] ml-5.5 space-y-3 xl:w-[551px] xl:ml-auto`}
+          className={`list-['⭐'] list-outside ml-5.5 space-y-3 xl:w-[551px] xl:ml-auto`}
         >
           <li
             className={`font-open-dyslexic text-xl text-shadow-2xs leading-7 pl-2 xl:pl-1 xl:leading-relaxed xl:text-2xl`}

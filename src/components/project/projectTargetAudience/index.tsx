@@ -16,7 +16,7 @@ export default function ProjectTargetAudience() {
         </h2>
 
         <ul
-          className={`w-[255px] list-['⭐'] list-outside text-[#242325] space-y-2 xl:w-[320px]`}
+          className={`w-[255px] list-['⭐'] list-outside space-y-2 xl:w-[320px]`}
         >
           <li
             className={`font-open-dyslexic text-xl text-shadow-2xs pl-0.5 xl:pl-1 xl:text-2xl`}

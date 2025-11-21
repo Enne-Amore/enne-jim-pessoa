@@ -4,7 +4,7 @@ export default function ProjectTypography() {
   return (
     <article className={`space-y-16 xl:space-y-70px`}>
       <h3
-        className={`font-geometos-rounded text-2xl text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6]/0 via-[#713CA6] to-[#713CA6]/0 pt-6 pb-5 xl:text-28px`}
+        className={`font-geometos-rounded text-[#FFFEF6] text-2xl text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6]/0 via-[#713CA6] to-[#713CA6]/0 pt-6 pb-5 xl:text-28px`}
       >
         Tipografia
       </h3>
@@ -23,7 +23,7 @@ export default function ProjectTypography() {
             </h4>
 
             <span
-              className={`text-[#242325] text-xs text-end text-shadow-2xs xl:text-base`}
+              className={`text-xs text-end text-shadow-2xs xl:text-base`}
             >
               Títulos / Frases especiais
             </span>
@@ -39,7 +39,7 @@ export default function ProjectTypography() {
             </h4>
 
             <span
-              className={`text-[#242325] text-xs text-end text-shadow-2xs xl:text-base`}
+              className={`text-xs text-end text-shadow-2xs xl:text-base`}
             >
               Parágrafos / Legendas
             </span>
@@ -55,7 +55,7 @@ export default function ProjectTypography() {
             </h4>
 
             <span
-              className={`text-[#242325] text-xs text-end text-shadow-2xs xl:text-base`}
+              className={`text-xs text-end text-shadow-2xs xl:text-base`}
             >
               Opções / Links / Instruções
             </span>
@@ -91,13 +91,13 @@ export default function ProjectTypography() {
                 </h5>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base`}
+                  className={`text-xs text-shadow-2xs xl:text-base`}
                 >
                   32px / Auto
                 </span>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
+                  className={`text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
                 >
                   Bold
                 </span>
@@ -113,13 +113,13 @@ export default function ProjectTypography() {
                 </h5>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base`}
+                  className={`text-xs text-shadow-2xs xl:text-base`}
                 >
                   28px / Auto
                 </span>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
+                  className={`text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
                 >
                   Bold
                 </span>
@@ -135,13 +135,13 @@ export default function ProjectTypography() {
                 </h5>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base`}
+                  className={`text-xs text-shadow-2xs xl:text-base`}
                 >
                   24px / 40px
                 </span>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
+                  className={`text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
                 >
                   Regular / Bold
                 </span>
@@ -157,13 +157,13 @@ export default function ProjectTypography() {
                 </h5>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base`}
+                  className={`text-xs text-shadow-2xs xl:text-base`}
                 >
                   20px / Auto
                 </span>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
+                  className={`text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
                 >
                   Regular / Bold
                 </span>
@@ -179,13 +179,13 @@ export default function ProjectTypography() {
                 </h5>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base`}
+                  className={`text-xs text-shadow-2xs xl:text-base`}
                 >
                   18px / Auto
                 </span>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
+                  className={`text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
                 >
                   Regular
                 </span>
@@ -219,13 +219,13 @@ export default function ProjectTypography() {
                 </h5>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base`}
+                  className={`text-xs text-shadow-2xs xl:text-base`}
                 >
                   28px / Auto
                 </span>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
+                  className={`text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
                 >
                   Bold
                 </span>
@@ -241,13 +241,13 @@ export default function ProjectTypography() {
                 </h5>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base`}
+                  className={`text-xs text-shadow-2xs xl:text-base`}
                 >
                   24px / Auto
                 </span>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
+                  className={`text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
                 >
                   Bold
                 </span>
@@ -263,13 +263,13 @@ export default function ProjectTypography() {
                 </h5>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base`}
+                  className={`text-xs text-shadow-2xs xl:text-base`}
                 >
                   20px / 35px
                 </span>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
+                  className={`text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
                 >
                   Regular / Bold
                 </span>
@@ -285,13 +285,13 @@ export default function ProjectTypography() {
                 </h5>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base`}
+                  className={`text-xs text-shadow-2xs xl:text-base`}
                 >
                   16px / Auto
                 </span>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
+                  className={`text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
                 >
                   Regular / Bold
                 </span>
@@ -307,13 +307,13 @@ export default function ProjectTypography() {
                 </h5>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base`}
+                  className={`text-xs text-shadow-2xs xl:text-base`}
                 >
                   16px / Auto
                 </span>
 
                 <span
-                  className={`text-[#242325] text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
+                  className={`text-xs text-shadow-2xs xl:text-base xl:-mt-0.5`}
                 >
                   Regular
                 </span>

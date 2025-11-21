@@ -7,7 +7,7 @@ export default function JanaiAmitafProducoes() {
   const data: ProjectsType = projects.find((project) => project.id === "2")!;
 
   return (
-    <div className={`font-bitter`}>
+    <div className={`font-bitter bg-[#FCFAFF] text-[#232027]`}>
       <ProjectHeader
         headerStyle={data.header.headerStyle}
         positions={data.header.positions}
@@ -25,7 +25,7 @@ export default function JanaiAmitafProducoes() {
 
       <main
         id="main"
-        className={`bg-[#FCFAFF] flex flex-col items-center gap-20 py-20 xl:gap-28 xl:py-28`}
+        className={`flex flex-col items-center gap-20 py-20 xl:gap-28 xl:py-28`}
       >
         <ProjectAccesses
           id={data.accesses.id}

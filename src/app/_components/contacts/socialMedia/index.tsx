@@ -11,7 +11,7 @@ export default function SocialMedia() {
         Caso prefira, pode me contatar através das redes sociais
       </h3>
 
-      <SocialNetworks />
+      <SocialNetworks socialNetworkStyle={`bg-white-200 text-light-purple border-light-purple hover:bg-light-purple hover:text-white-200 focus-visible:bg-light-purple focus-visible:text-white-200 active:bg-dark-purple`} />
     </article>
   );
 }

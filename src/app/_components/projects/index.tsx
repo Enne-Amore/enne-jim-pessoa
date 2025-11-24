@@ -62,18 +62,19 @@ export default function Projects() {
                   </span>
                 </figcaption>
 
-                <ul
+                {/* <ul
                   className={`absolute top-4 w-full flex justify-center gap-3`}
                 >
                   {card.positions.map((position, index) => (
                     <li
                       key={index}
                       className={`w-max text-gray text-xs text-shadow-2xs select-none bg-white/90 px-2.5 py-1 rounded-4xl`}
+                      lang="en"
                     >
                       {position}
                     </li>
                   ))}
-                </ul>
+                </ul> */}
               </figure>
             </Link>
           </li>

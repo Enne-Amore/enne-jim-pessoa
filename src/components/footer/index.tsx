@@ -15,12 +15,12 @@ export default function Footer() {
         />
       </figure>
 
-      <span
+      <p
         className={`w-[235px] font-open-dyslexic text-xs text-center text-shadow-2xs leading-5 xl:w-max xl:text-base xl:absolute xl:left-1/2 xl:-translate-x-1/2`}
       >
-        Copyright © 2025 <strong>Enne Jim Pessoa</strong>. Todos os direitos
+        <span lang="en">Copyright</span> © 2025 <strong>Enne Jim Pessoa</strong>. Todos os direitos
         reservados.
-      </span>
+      </p>
     </footer>
   );
 }

@@ -16,7 +16,7 @@ export default function About() {
       label: "UI/UX Design",
     },
     {
-      url: "https://docs.google.com/document/d/1lQnBTyK2iCydB-bHw4n8tUW54pEtBqR86aQudit6Blo/edit?usp=sharing",
+      url: "https://docs.google.com/document/d/13DFtKuUwF7iAQbUlu_oN48wvKRb-vJw7jp6k37lqPWk/edit?usp=sharing",
       ariaLabel: "Ir ao meu currículo de Front-end",
       label: "Front-end",
     },
@@ -27,7 +27,7 @@ export default function About() {
       id="sobre"
       className={`w-full bg-gradient-to-b from-light-purple to-dark-purple px-9 pt-10 pb-16 flex flex-col items-center justify-center gap-12 shadow xl:flex-row xl:gap-100px xl:pt-14`}
     >
-      <article className={`space-y-1 xl:w-[675px]`}>
+      <article className={`xl:space-y-1 xl:w-[675px]`}>
         <h2
           className={`font-lexia-readable text-white-300 text-32px text-shadow-2xs`}
         >
@@ -35,7 +35,7 @@ export default function About() {
         </h2>
 
         <p className={`font-open-dyslexic text-xl text-shadow-2xs leading-8 xl:text-2xl xl:leading-9`}>
-          Trabalhar na interseção entre <strong>Tecnologia e Design</strong> é onde posso unir lógica e sensibilidade para criar <strong>experiências digitais acessíveis e cheias de significado</strong>. Valorizo muito a <strong>comunicação contínua, o trabalho em equipe e o aprendizado compartilhado</strong>, pois sei que boas soluções nascem de pessoas diversas que colaboram com empatia e escuta ativa. Vejo nas minhas áreas não apenas uma ferramenta estética, mas uma forma de <strong>transformar o digital em um espaço mais humano e acolhedor</strong>.
+          Trabalhar na interseção entre <strong>Tecnologia e <span lang="en">Design</span></strong> é onde posso unir lógica e sensibilidade para criar <strong>experiências digitais acessíveis e cheias de significado</strong>. Valorizo muito a <strong>comunicação contínua, o trabalho em equipe e o aprendizado compartilhado</strong>, pois sei que boas soluções nascem de pessoas diversas que colaboram com empatia e escuta ativa. Vejo nas minhas áreas não apenas uma ferramenta estética, mas uma forma de <strong>transformar o digital em um espaço mais humano e acolhedor</strong>.
         </p>
 
         <ul
@@ -54,7 +54,7 @@ export default function About() {
                   <FaFileLines className={`w-5 h-auto`} />
                 </span>
 
-                <span>CV {resume.label}</span>
+                <span lang="en">CV {resume.label}</span>
               </a>
             </li>
           ))}
@@ -83,7 +83,7 @@ export default function About() {
           </span>
 
           <span
-            className={`font-medium text-gray text-xs text-shadow-2xs bg-gradient-to-br from-light-pink-200 to-light-pink-100 shadow px-4 py-1.5 rounded-4xl xl:text-base`}
+            className={`font-medium text-gray text-xs text-shadow-2xs bg-gradient-to-br from-light-pink-200 to-light-pink-100 shadow px-2.5 py-1 rounded-4xl xl:text-base xl:px-3.5`}
           >
             Ê/Elu/-e
           </span>

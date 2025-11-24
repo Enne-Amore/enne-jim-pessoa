@@ -13,7 +13,7 @@ export const projects = [
     header: {
       headerStyle: "bg-[#030007]",
       positions: ["UI/UX Design", "Front-end"],
-      positionStyle: "bg-[#6A4EA6]/80",
+      positionStyle: "bg-[#6A4EA6]/80 text-[#FFFFFD]",
       img: "/assets/cnbpb-project-header.png",
       alt: "Coletive Não-Binárie da Paraíba",
       mobileWidth: "320",
@@ -22,7 +22,7 @@ export const projects = [
       desktopHeight: "134",
       caption:
         "Construção de uma landing page intuitiva para divulgar a organização",
-      captionStyle: "font-geometos-rounded xl:text-32px xl:w-[780px]",
+      captionStyle: "font-geometos-rounded text-[#FFFFFD] xl:text-32px xl:w-[780px]",
       downStyle: "text-[#F2E530] hover:text-[#F2C029] focus-visible:text-[#F2C029]",
     },
     accesses: {
@@ -56,7 +56,7 @@ export const projects = [
     header: {
       headerStyle: "bg-gradient-to-br from-[#8C00FF] to-[#6C0CF2]",
       positions: ["UI/UX Design", "Front-end"],
-      positionStyle: "text-[#232027] bg-[#F2B705]",
+      positionStyle: "bg-[#F2B705]",
       img: "/assets/janai-amitaf-project-header.png",
       alt: "Janai Amitáf Produções",
       mobileWidth: "160",
@@ -65,7 +65,7 @@ export const projects = [
       desktopHeight: "279",
       caption:
         "Desenvolvimento de um portfólio web artístico com seus principais trabalhos",
-      captionStyle: "font-semibold xl:text-28px xl:w-[620px]",
+      captionStyle: "font-semibold text-[#FCFAFF] xl:text-28px xl:w-[620px]",
       downStyle: "text-[#F2B705] hover:text-[#DB9406] focus-visible:text-[#DB9406]",
     },
     accesses: {

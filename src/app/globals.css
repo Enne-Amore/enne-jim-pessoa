@@ -130,7 +130,8 @@ body {
   background-clip: text;
 }
 #solution-cnbpb .font-open-dyslexic strong,
-#style-guide-cnbpb .font-open-dyslexic strong {
+#style-guide-cnbpb .font-open-dyslexic strong,
+#technologies-cnbpb .font-open-dyslexic strong {
   background: linear-gradient(
     96deg,
     #713CA6 0%,

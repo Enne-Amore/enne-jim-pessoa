@@ -2,10 +2,10 @@ export default function ProjectDemoVideo() {
   return (
     <section
       id={`demo-video-cnbpb`}
-      className={`flex flex-col justify-center items-center gap-8 mb-4 xl:gap-10 xl:mb-auto`}
+      className={`w-full bg-gradient-to-b from-[#F2E530] to-[#FFCE31] flex flex-col justify-center items-center gap-11 px-8 pt-12 pb-20 shadow xl:gap-16 xl:pt-70px xl:pb-100px`}
     >
       <h2
-        className={`w-[260px] font-geometos-rounded text-28px text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text xl:w-full xl:text-32px`}
+        className={`w-[260px] font-geometos-rounded text-28px text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text -mb-5 xl:w-full xl:text-32px`}
       >
         Demonstração de Uso
       </h2>

@@ -10,6 +10,7 @@ import ProjectScreenPrototyping from "@/components/project/projectScreenPrototyp
 import ProjectDemoVideo from "@/components/project/projectDemoVideo";
 import ProjectImpact from "@/components/project/projectImpact";
 import ProjectFooter from "@/components/project/projectFooter";
+import ProjectTechnologies from "@/components/project/projectTechnologies";
 
 export default function ColetiveNaoBinarieParaiba() {
   const data: ProjectsType = projects.find((project) => project.id === "1")!;
@@ -33,7 +34,7 @@ export default function ColetiveNaoBinarieParaiba() {
 
       <main
         id="main"
-        className={`flex flex-col items-center gap-20 pt-20 xl:gap-28 xl:pt-28`}
+        className={`flex flex-col items-center gap-20 py-20 xl:gap-28 xl:py-28`}
       >
         <ProjectAccesses
           id={data.accesses.id}
@@ -58,6 +59,8 @@ export default function ColetiveNaoBinarieParaiba() {
         <ProjectStyleGuide />
 
         <ProjectScreenPrototyping />
+
+        <ProjectTechnologies />
 
         <ProjectDemoVideo />
 

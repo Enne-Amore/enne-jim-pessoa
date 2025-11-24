@@ -4,7 +4,7 @@ export default function ProjectImpact() {
   return (
     <section
       id={`impact-cnbpb`}
-      className={`flex flex-col justify-center items-center gap-9 xl:w-[1074px] xl:flex-row xl:justify-between`}
+      className={`flex flex-col justify-center items-center gap-9 xl:w-[1074px] xl:flex-row-reverse xl:justify-between`}
     >
       <div className={`space-y-1 px-8 xl:px-0`}>
         <h2

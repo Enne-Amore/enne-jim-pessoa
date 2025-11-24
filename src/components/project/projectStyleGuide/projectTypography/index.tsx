@@ -22,9 +22,7 @@ export default function ProjectTypography() {
               Geometos Rounded
             </h4>
 
-            <span
-              className={`text-xs text-end text-shadow-2xs xl:text-base`}
-            >
+            <span className={`text-xs text-end text-shadow-2xs xl:text-base`}>
               Títulos / Frases especiais
             </span>
           </li>
@@ -38,9 +36,7 @@ export default function ProjectTypography() {
               Open Dyslexic
             </h4>
 
-            <span
-              className={`text-xs text-end text-shadow-2xs xl:text-base`}
-            >
+            <span className={`text-xs text-end text-shadow-2xs xl:text-base`}>
               Parágrafos / Legendas
             </span>
           </li>
@@ -54,9 +50,7 @@ export default function ProjectTypography() {
               Open Sans
             </h4>
 
-            <span
-              className={`text-xs text-end text-shadow-2xs xl:text-base`}
-            >
+            <span className={`text-xs text-end text-shadow-2xs xl:text-base`}>
               Opções / Links / Instruções
             </span>
           </li>
@@ -90,9 +84,7 @@ export default function ProjectTypography() {
                   H2
                 </h5>
 
-                <span
-                  className={`text-xs text-shadow-2xs xl:text-base`}
-                >
+                <span className={`text-xs text-shadow-2xs xl:text-base`}>
                   32px / Auto
                 </span>
 
@@ -112,9 +104,7 @@ export default function ProjectTypography() {
                   H3
                 </h5>
 
-                <span
-                  className={`text-xs text-shadow-2xs xl:text-base`}
-                >
+                <span className={`text-xs text-shadow-2xs xl:text-base`}>
                   28px / Auto
                 </span>
 
@@ -134,9 +124,7 @@ export default function ProjectTypography() {
                   P / A
                 </h5>
 
-                <span
-                  className={`text-xs text-shadow-2xs xl:text-base`}
-                >
+                <span className={`text-xs text-shadow-2xs xl:text-base`}>
                   24px / 40px
                 </span>
 
@@ -156,9 +144,7 @@ export default function ProjectTypography() {
                   Caption / A
                 </h5>
 
-                <span
-                  className={`text-xs text-shadow-2xs xl:text-base`}
-                >
+                <span className={`text-xs text-shadow-2xs xl:text-base`}>
                   20px / Auto
                 </span>
 
@@ -178,9 +164,7 @@ export default function ProjectTypography() {
                   Span
                 </h5>
 
-                <span
-                  className={`text-xs text-shadow-2xs xl:text-base`}
-                >
+                <span className={`text-xs text-shadow-2xs xl:text-base`}>
                   18px / Auto
                 </span>
 
@@ -218,9 +202,7 @@ export default function ProjectTypography() {
                   H2
                 </h5>
 
-                <span
-                  className={`text-xs text-shadow-2xs xl:text-base`}
-                >
+                <span className={`text-xs text-shadow-2xs xl:text-base`}>
                   28px / Auto
                 </span>
 
@@ -240,9 +222,7 @@ export default function ProjectTypography() {
                   H3
                 </h5>
 
-                <span
-                  className={`text-xs text-shadow-2xs xl:text-base`}
-                >
+                <span className={`text-xs text-shadow-2xs xl:text-base`}>
                   24px / Auto
                 </span>
 
@@ -262,9 +242,7 @@ export default function ProjectTypography() {
                   P / A
                 </h5>
 
-                <span
-                  className={`text-xs text-shadow-2xs xl:text-base`}
-                >
+                <span className={`text-xs text-shadow-2xs xl:text-base`}>
                   20px / 35px
                 </span>
 
@@ -284,9 +262,7 @@ export default function ProjectTypography() {
                   Caption / A
                 </h5>
 
-                <span
-                  className={`text-xs text-shadow-2xs xl:text-base`}
-                >
+                <span className={`text-xs text-shadow-2xs xl:text-base`}>
                   16px / Auto
                 </span>
 
@@ -306,9 +282,7 @@ export default function ProjectTypography() {
                   Span
                 </h5>
 
-                <span
-                  className={`text-xs text-shadow-2xs xl:text-base`}
-                >
+                <span className={`text-xs text-shadow-2xs xl:text-base`}>
                   16px / Auto
                 </span>
 

@@ -55,15 +55,11 @@ export default function ProjectColors() {
             <li
               className={`bg-[#F2E530] flex justify-between items-center px-8 py-4 shadow rounded-4xl`}
             >
-              <span
-                className={`text-base xl:text-xl text-shadow-2xs`}
-              >
+              <span className={`text-base xl:text-xl text-shadow-2xs`}>
                 #F2E530
               </span>
 
-              <span
-                className={`text-xs xl:text-base text-shadow-2xs`}
-              >
+              <span className={`text-xs xl:text-base text-shadow-2xs`}>
                 Amarela escura
               </span>
             </li>
@@ -71,15 +67,11 @@ export default function ProjectColors() {
             <li
               className={`bg-[#ECE35A] flex justify-between items-center px-8 py-4 shadow rounded-4xl`}
             >
-              <span
-                className={`text-base xl:text-xl text-shadow-2xs`}
-              >
+              <span className={`text-base xl:text-xl text-shadow-2xs`}>
                 #ECE35A
               </span>
 
-              <span
-                className={`text-xs xl:text-base text-shadow-2xs`}
-              >
+              <span className={`text-xs xl:text-base text-shadow-2xs`}>
                 Amarela clara
               </span>
             </li>
@@ -87,15 +79,11 @@ export default function ProjectColors() {
             <li
               className={`bg-[#F2C029] flex justify-between items-center px-8 py-4 shadow rounded-4xl`}
             >
-              <span
-                className={`text-base xl:text-xl text-shadow-2xs`}
-              >
+              <span className={`text-base xl:text-xl text-shadow-2xs`}>
                 #F2C029
               </span>
 
-              <span
-                className={`text-xs xl:text-base text-shadow-2xs`}
-              >
+              <span className={`text-xs xl:text-base text-shadow-2xs`}>
                 Laranja
               </span>
             </li>
@@ -163,15 +151,11 @@ export default function ProjectColors() {
             <li
               className={`bg-[#FFFFFD] flex justify-between items-center px-8 py-4 shadow rounded-4xl`}
             >
-              <span
-                className={`text-base xl:text-xl text-shadow-2xs`}
-              >
+              <span className={`text-base xl:text-xl text-shadow-2xs`}>
                 #FFFFFD
               </span>
 
-              <span
-                className={`text-xs xl:text-base text-shadow-2xs`}
-              >
+              <span className={`text-xs xl:text-base text-shadow-2xs`}>
                 Branca
               </span>
             </li>
@@ -179,15 +163,11 @@ export default function ProjectColors() {
             <li
               className={`bg-[#FFFEF6] flex justify-between items-center px-8 py-4 shadow rounded-4xl`}
             >
-              <span
-                className={`text-base xl:text-xl text-shadow-2xs`}
-              >
+              <span className={`text-base xl:text-xl text-shadow-2xs`}>
                 #FFFEF6
               </span>
 
-              <span
-                className={`text-xs xl:text-base text-shadow-2xs`}
-              >
+              <span className={`text-xs xl:text-base text-shadow-2xs`}>
                 Branca amarelada
               </span>
             </li>

@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@plugin "tailwindcss-animate";
+/* @import "tw-animate-css"; */
+
+@custom-variant dark (&:is(.dark *));
+
 @font-face {
   font-family: "lexia-readable";
   src: url(../fonts/home-page/lexia_readable/LexieReadable-Bold.ttf) format(truetype);
@@ -52,7 +57,7 @@
   --spacing-16: 60px;
   --spacing-12: 50px;
   --spacing-8: 30px;
-  --animate-btnDown: downBtn 1s ease-in alternate infinite ;
+  --animate-btnDown: downBtn 1s ease-in alternate infinite;
 }
 
 /* Scrollbar */
@@ -83,28 +88,15 @@ body {
 .dark ::-webkit-scrollbar-thumb:hover {
   @apply bg-light-pink-200;
 }
-.dark main {
-  @apply bg-gradient-to-b from-gray to-[#1C1A1B];
-}
-.dark #hero h2 span:first-child {
-  @apply text-white-200;
-}
-.dark #hero h2 span:last-child {
-  @apply text-light-purple;
-}
-.dark #accesses-cnbpb ul li:not(:first-child) a {
-  @apply text-[#FFFEF6];
-
-  &:hover {
-    @apply text-[#040008];
-  }
-}
-.dark #accesses-janai-amitaf ul li:not(:first-child) a {
-  @apply text-[#FCFAFF];
-  
-  &:hover {
-    @apply text-[#05000C];
-  }
+.dark #solution-cnbpb .font-open-dyslexic strong,
+.dark #style-guide-cnbpb .font-open-dyslexic strong,
+.dark #technologies-cnbpb .font-open-dyslexic strong {
+  background: linear-gradient(
+    96deg,
+    #F2E530 0%,
+    #ECE35A 90%
+  );
+  background-clip: text;
 }
 
 /* Texts */
@@ -125,7 +117,7 @@ body {
   background: linear-gradient(
     96deg,
     #F2E530 0%,
-    #F2E530 90%
+    #ECE35A 90%
   );
   background-clip: text;
 }

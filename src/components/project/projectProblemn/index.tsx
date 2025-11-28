@@ -66,7 +66,7 @@ export default function ProjectProblemn() {
       </div>
 
       <p
-        className={`max-w-[720px] font-open-dyslexic text-[#FFFFFD] text-xl text-shadow-2xs leading-9 xl:text-2xl xl:leading-10`}
+        className={`max-w-[720px] font-open-dyslexic text-[#FFFFFD] text-xl text-shadow-2xs leading-9 -mt-2 xl:text-2xl xl:leading-10 xl:mt-auto`}
       >
         A <strong>divulgação do coletive</strong> para a população é um fator fundamental para ajudar o movimento não-binário, porém a diretoria da organização passa por um <strong>desafio de conseguir obter recursos financeiros para produzir materiais de comunicação ao público</strong>, como banners, panfletos e cartazes, os quais também são mais trabalhosos de serem disseminados pelos lugares presencialmente.
       </p>

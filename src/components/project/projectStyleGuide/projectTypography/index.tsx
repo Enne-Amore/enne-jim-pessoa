@@ -4,7 +4,7 @@ export default function ProjectTypography() {
   return (
     <article className={`space-y-16 xl:space-y-70px`}>
       <h3
-        className={`font-geometos-rounded text-[#FFFEF6] text-2xl text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6]/0 via-[#713CA6] to-[#713CA6]/0 pt-6 pb-5 xl:text-28px`}
+        className={`font-geometos-rounded text-[#FFFEF6] text-2xl text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6]/0 via-[#713CA6] to-[#713CA6]/0 pt-6 pb-5 dark:text-[#040008] dark:from-[#F2C029]/0 dark:via-[#F2C029] dark:to-[#F2C029]/0 xl:text-28px`}
       >
         Tipografia
       </h3>
@@ -14,10 +14,10 @@ export default function ProjectTypography() {
           className={`max-w-[360px] w-full space-y-8 px-2.5 xl:max-w-full xl:w-[710px] sm:px-0`}
         >
           <li
-            className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col gap-5 p-8 rounded-4xl shadow xl:flex-row xl:justify-between xl:items-center xl:py-5 xl:px-9`}
+            className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col gap-5 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6] xl:flex-row xl:justify-between xl:items-center xl:py-5 xl:px-9`}
           >
             <h4
-              className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+              className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
             >
               Geometos Rounded
             </h4>
@@ -28,10 +28,10 @@ export default function ProjectTypography() {
           </li>
 
           <li
-            className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col gap-5 p-8 rounded-4xl shadow xl:flex-row xl:justify-between xl:items-center xl:py-5 xl:px-9`}
+            className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col gap-5 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6] xl:flex-row xl:justify-between xl:items-center xl:py-5 xl:px-9`}
           >
             <h4
-              className={`font-bold font-open-dyslexic text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+              className={`font-bold font-open-dyslexic text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
             >
               Open Dyslexic
             </h4>
@@ -42,10 +42,10 @@ export default function ProjectTypography() {
           </li>
 
           <li
-            className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col gap-5 p-8 rounded-4xl shadow xl:flex-row xl:justify-between xl:items-center xl:py-5 xl:px-9`}
+            className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col gap-5 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6] xl:flex-row xl:justify-between xl:items-center xl:py-5 xl:px-9`}
           >
             <h4
-              className={`font-bold text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+              className={`font-bold text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
             >
               Open Sans
             </h4>
@@ -60,15 +60,15 @@ export default function ProjectTypography() {
           className={`flex flex-col gap-12 m-auto px-2.5 xl:w-[710px] xl:flex-row xl:justify-between sm:px-0`}
         >
           <li
-            className={`max-w-[360px] w-full bg-[#FFFEF6]/30 flex flex-col items-center gap-1 border border-[#040008] rounded-4xl p-10 space-y-5 shadow xl:max-w-full xl:w-[290px]`}
+            className={`max-w-[360px] w-full bg-[#FFFEF6]/30 flex flex-col items-center gap-1 border border-[#040008] rounded-4xl p-10 space-y-5 shadow dark:bg-[#242325]/30 dark:border-[#FFFEF6] xl:max-w-full xl:w-[290px]`}
           >
             <h4 className={`flex items-center gap-1.5`}>
               <FaDesktop
-                className={`w-[26px] h-[26px] text-[#713CA6] text-shadow-2xs xl:w-[30px] xl:h-[30px]`}
+                className={`w-[26px] h-[26px] text-[#713CA6] text-shadow-2xs dark:text-[#F2E530] xl:w-[30px] xl:h-[30px]`}
               />
 
               <span
-                className={`font-geometos-rounded text-xl text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text translate-y-0.5 xl:text-2xl xl:translate-y-0`}
+                className={`font-geometos-rounded text-xl text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text translate-y-0.5 dark:from-[#F2E530] dark:to-[#ECE35A] xl:text-2xl xl:translate-y-0`}
               >
                 Desktop
               </span>
@@ -76,10 +76,10 @@ export default function ProjectTypography() {
 
             <ul className={`w-[180px] space-y-5 xl:w-[210px]`}>
               <li
-                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow`}
+                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6]`}
               >
                 <h5
-                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
                 >
                   H2
                 </h5>
@@ -96,10 +96,10 @@ export default function ProjectTypography() {
               </li>
 
               <li
-                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow`}
+                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6]`}
               >
                 <h5
-                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
                 >
                   H3
                 </h5>
@@ -116,10 +116,10 @@ export default function ProjectTypography() {
               </li>
 
               <li
-                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow`}
+                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6]`}
               >
                 <h5
-                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
                 >
                   P / A
                 </h5>
@@ -136,10 +136,10 @@ export default function ProjectTypography() {
               </li>
 
               <li
-                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow`}
+                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6]`}
               >
                 <h5
-                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
                 >
                   Caption / A
                 </h5>
@@ -156,10 +156,10 @@ export default function ProjectTypography() {
               </li>
 
               <li
-                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow`}
+                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6]`}
               >
                 <h5
-                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
                 >
                   Span
                 </h5>
@@ -178,15 +178,15 @@ export default function ProjectTypography() {
           </li>
 
           <li
-            className={`max-w-[360px] w-full bg-[#FFFEF6]/30 flex flex-col items-center gap-1 border border-[#040008] rounded-4xl p-10 space-y-5 shadow xl:max-w-full xl:w-[290px]`}
+            className={`max-w-[360px] w-full bg-[#FFFEF6]/30 flex flex-col items-center gap-1 border border-[#040008] rounded-4xl p-10 space-y-5 shadow dark:bg-[#242325]/30 dark:border-[#FFFEF6] xl:max-w-full xl:w-[290px]`}
           >
             <h4 className={`flex items-center gap-1.5`}>
               <FaMobileScreen
-                className={`w-[20px] h-[25px] text-[#713CA6] text-shadow-2xs xl:w-[23px] xl:h-[28px]`}
+                className={`w-[20px] h-[25px] text-[#713CA6] text-shadow-2xs dark:text-[#F2E530] xl:w-[23px] xl:h-[28px]`}
               />
 
               <span
-                className={`font-geometos-rounded text-xl text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text translate-y-0.5 xl:text-2xl xl:translate-y-0`}
+                className={`font-geometos-rounded text-xl text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text translate-y-0.5 dark:from-[#F2E530] dark:to-[#ECE35A] xl:text-2xl xl:translate-y-0`}
               >
                 Mobile
               </span>
@@ -194,10 +194,10 @@ export default function ProjectTypography() {
 
             <ul className={`w-[180px] space-y-5 xl:w-[210px]`}>
               <li
-                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow`}
+                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6]`}
               >
                 <h5
-                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
                 >
                   H2
                 </h5>
@@ -214,10 +214,10 @@ export default function ProjectTypography() {
               </li>
 
               <li
-                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow`}
+                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6]`}
               >
                 <h5
-                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
                 >
                   H3
                 </h5>
@@ -234,10 +234,10 @@ export default function ProjectTypography() {
               </li>
 
               <li
-                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow`}
+                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6]`}
               >
                 <h5
-                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
                 >
                   P / A
                 </h5>
@@ -254,10 +254,10 @@ export default function ProjectTypography() {
               </li>
 
               <li
-                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow`}
+                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6]`}
               >
                 <h5
-                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
                 >
                   Caption / A
                 </h5>
@@ -274,10 +274,10 @@ export default function ProjectTypography() {
               </li>
 
               <li
-                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow`}
+                className={`w-full bg-gradient-to-br from-[#FFCE31] to-[#F2E530] flex flex-col items-center gap-0 p-8 rounded-4xl shadow dark:from-[#713CA6] dark:to-[#6A4EA6]`}
               >
                 <h5
-                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs xl:text-xl`}
+                  className={`font-geometos-rounded text-[#6A4EA6] text-base text-shadow-2xs dark:text-[#F2E530] xl:text-xl`}
                 >
                   Span
                 </h5>

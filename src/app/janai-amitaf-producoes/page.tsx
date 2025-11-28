@@ -7,7 +7,7 @@ export default function JanaiAmitafProducoes() {
   const data: ProjectsType = projects.find((project) => project.id === "2")!;
 
   return (
-    <div className={`font-bitter bg-[#FCFAFF] text-[#232027]`}>
+    <div className={`font-bitter bg-[#FCFAFF] text-[#232027] dark:bg-[#232027] dark:text-[#FCFAFF]`}>
       <ProjectHeader
         headerStyle={data.header.headerStyle}
         positions={data.header.positions}

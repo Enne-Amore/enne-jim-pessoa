@@ -10,10 +10,10 @@ export default function Hero() {
         <h2
           className={`font-lexia-readable text-44px text-center text-shadow-2xs leading-14 flex flex-col items-center xl:text-5xl`}
         >
-          <span className={`text-black`}>Venha conhecer</span>
+          <span className={`text-black dark:text-white-200`}>Venha conhecer</span>
 
           <span
-            className={`bg-clip-text text-transparent bg-gradient-to-br from-dark-purple to-light-purple`}
+            className={`bg-clip-text text-transparent bg-gradient-to-br from-dark-purple to-light-purple dark:text-light-purple`}
           >
             os meus trabalhos
           </span>

@@ -39,7 +39,7 @@ export const projects = [
       urlMainStyle:
         "bg-[#F2E530] text-[#040008] hover:bg-[#F2C029] focus-visible:bg-[#F2C029] active:bg-[#FFFEF6] active:text-[#F2C029]",
       urlSecondaryStyle:
-        "bg-[#F2E530]/20 border-2 border-[#F2E530] text-[#040008] hover:bg-[#F2E530] focus-visible:bg-[#F2E530] active:border-[#F2C029] active:bg-[#F2C029]",
+        "bg-[#F2E530]/20 border-2 border-[#F2E530] text-[#040008] dark:text-[#FFFFFD] dark:hover:text-[#040008] dark:focus-visible:text-[#040008] hover:bg-[#F2E530] focus-visible:bg-[#F2E530] active:border-[#F2C029] active:bg-[#F2C029]",
     },
   },
   {
@@ -56,7 +56,7 @@ export const projects = [
     header: {
       headerStyle: "bg-gradient-to-br from-[#8C00FF] to-[#6C0CF2]",
       positions: ["UI/UX Design", "Front-end"],
-      positionStyle: "bg-[#F2B705]",
+      positionStyle: "bg-[#F2B705] dark:text-[#05000C]",
       img: "/assets/janai-amitaf-project-header.png",
       alt: "Janai Amitáf Produções",
       mobileWidth: "160",
@@ -82,7 +82,7 @@ export const projects = [
       urlMainStyle:
         "bg-[#F2B705] text-[#05000C] hover:bg-[#DB9406] focus-visible:bg-[#DB9406] active:bg-[#F8F3FF] active:text-[#DB9406]",
       urlSecondaryStyle:
-        "bg-[#F2B705]/20 border-2 border-[#F2B705] text-[#05000C] hover:bg-[#F2B705] focus-visible:bg-[#F2B705] active:border-[#DB9406] active:bg-[#DB9406]",
+        "bg-[#F2B705]/20 border-2 border-[#F2B705] text-[#05000C] dark:text-[#FCFAFF] dark:hover:text-[#05000C] dark:focus-visible:text-[#05000C] hover:bg-[#F2B705] focus-visible:bg-[#F2B705] active:border-[#DB9406] active:bg-[#DB9406]",
     },
   },
 ];

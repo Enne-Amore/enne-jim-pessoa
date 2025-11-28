@@ -4,11 +4,11 @@ export default function ProjectSolution() {
   return (
     <section
       id={`solution-cnbpb`}
-      className={`w-full bg-gradient-to-b from-[#F2E530] to-[#FFCE31] flex flex-col justify-center items-center gap-10 px-8 pt-11 pb-16 shadow xl:flex-row-reverse xl:gap-100px xl:px-100px xl:py-70px`}
+      className={`w-full bg-gradient-to-b from-[#F2E530] to-[#FFCE31] flex flex-col justify-center items-center gap-10 px-8 pt-11 pb-16 shadow dark:bg-[linear-gradient(to_bottom,#242325B3,#242325B3),linear-gradient(to_bottom,#F2E530,#FFCE31)] xl:flex-row-reverse xl:gap-100px xl:px-100px xl:py-70px`}
     >
       <div className={`space-y-1`}>
         <h2
-          className={`font-geometos-rounded text-28px text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text xl:text-32px`}
+          className={`font-geometos-rounded text-28px text-center text-shadow-2xs bg-gradient-to-r from-[#713CA6] to-[#6A4EA6] text-transparent bg-clip-text dark:from-[#F2E530] dark:to-[#ECE35A] xl:text-32px`}
         >
           Solução
         </h2>
